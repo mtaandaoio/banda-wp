@@ -1,0 +1,25 @@
+/**
+ * _fonts.scss
+ * Custom Banda fonts.
+ */
+@font-face {
+	font-family: 'star';
+	src: url('../fonts/star.eot');
+	src: url('../fonts/star.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/star.woff') format('woff'),
+		url('../fonts/star.ttf') format('truetype'),
+		url('../fonts/star.svg#star') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Banda';
+	src: url('../fonts/Banda.eot');
+	src: url('../fonts/Banda.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Banda.woff') format('woff'),
+		url('../fonts/Banda.ttf') format('truetype'),
+		url('../fonts/Banda.svg#Banda') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

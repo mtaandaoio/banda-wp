@@ -1,0 +1,642 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Banda Product Slider Carousel\n"
+"POT-Creation-Date: 2016-02-19 11:20+0100\n"
+"PO-Revision-Date: 2016-02-19 11:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: Yithemes <plugins@yithemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;_ngettext_noop:1,2;"
+"_n_nooop:1,2;_c,_nc:4c,1,2;_x:1,2c\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../includes/class.yith-product-slider-type-premium.php:57
+msgid "Title"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:58
+msgid "Shortcode"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:59
+#: ../includes/metaboxes/product_slider-metabox.php:111
+msgid "Date"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:113
+#: ../includes/class.yith-product-slider-type-premium.php:116
+#, php-format
+msgid "%s updated"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:114
+msgid "Custom field updated"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:115
+msgid "Custom field deleted"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:117
+#, php-format
+msgid "Product Slider Carousel restored to version %s"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:118
+#, php-format
+msgid "%s published"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:119
+#, php-format
+msgid "%s saved"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:120
+#, php-format
+msgid "%s submitted"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:121
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type-premium.php:122
+#, php-format
+msgid "%s draft updated"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:41
+msgid "Yith Banda Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:101
+msgctxt "Post Type General Name"
+msgid "YITH Banda Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:102
+msgctxt "Post Type Singular Name"
+msgid "Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:103
+#: ../includes/class.yith-banda-product-slider.php:196
+#: ../includes/class.yith-banda-product-slider.php:197
+#: ../includes/class.yith-banda-product-slider.php:399
+msgid "Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:104
+msgid "Parent Item:"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:105
+msgid "All Product Slider Carousels"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:106
+msgid "View Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:107
+#: ../includes/class.yith-product-slider-type.php:108
+msgid "Add New Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:109
+msgid "Edit Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:110
+msgid "Update Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:111
+msgid "Search Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:112
+msgid "Not found"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-type.php:113
+msgid "Not found in Trash"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:14
+#: ../includes/class.yith-banda-product-slider.php:396
+msgid "YITH Banda Product Slider Carousel"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:15
+msgid "Show your Product Slider in sidebar!"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:51
+#: ../includes/class.yith-product-slider-widget.php:53
+msgid "Select a slider"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:60
+msgid "Animation In"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:62
+#: ../includes/class.yith-product-slider-widget.php:75
+msgid "Select an animation"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:73
+msgid "Animation Out"
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:86
+#: ../includes/metaboxes/product_slider-metabox.php:80
+msgid "Hide \"Add to cart\""
+msgstr ""
+
+#: ../includes/class.yith-product-slider-widget.php:90
+msgid "Hide product price"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:96
+#: ../includes/class.yith-banda-product-slider.php:181
+#: ../includes/metaboxes/product_slider-metabox.php:14
+msgid "Settings"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:98
+msgid "Premium live demo"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:98
+msgid "Live demo"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:103
+#: ../includes/class.yith-banda-product-slider.php:185
+msgid "Premium Version"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:130
+msgid "Plugin Documentation"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:187
+#: ../plugin-options/layout1-options.php:12
+msgid "Layout 1"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:188
+#: ../plugin-options/layout2-options.php:10
+msgid "Layout 2"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:189
+#: ../plugin-options/layout3-options.php:8
+msgid "Layout 3"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:242
+msgctxt "enhanced select"
+msgid "One result is available, press enter to select it."
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:243
+msgctxt "enhanced select"
+msgid "%qty% results are available, use up and down arrow keys to navigate."
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:244
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:245
+msgctxt "enhanced select"
+msgid "Loading failed"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:246
+msgctxt "enhanced select"
+msgid "Please enter 1 or more characters"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:247
+msgctxt "enhanced select"
+msgid "Please enter %qty% or more characters"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:248
+msgctxt "enhanced select"
+msgid "Please delete 1 character"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:249
+msgctxt "enhanced select"
+msgid "Please delete %qty% characters"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:250
+msgctxt "enhanced select"
+msgid "You can only select 1 item"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:251
+msgctxt "enhanced select"
+msgid "You can only select %qty% items"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:252
+msgctxt "enhanced select"
+msgid "Loading more results&hellip;"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:253
+msgctxt "enhanced select"
+msgid "Searching&hellip;"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:342
+msgid "Add YITH Banda Product Slider Carousel shortcode"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:398
+msgid "Add Product Slider"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:404
+msgid "Choose a Product Slider"
+msgstr ""
+
+#: ../includes/class.yith-banda-product-slider.php:412
+msgid "Z-Index"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:8
+msgid "Product Slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:18
+msgid "Choose Product Category"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:19
+msgid ""
+"Choose product categories. Leave this field empty if you want all categories "
+"to be shown in the slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:21
+msgid "Choose product categories"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:27
+msgid "Products to show"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:28
+msgid ""
+"Select products to show in the slider: \"On Sale\", \"Best Sellers\" etc. or "
+"select them manually."
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:31
+msgid "On Sale"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:32
+msgid "Best Sellers"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:33
+msgid "Free"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:34
+msgid "Last Added"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:35
+msgid "Featured"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:36
+msgid "Select your product"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:41
+msgid "Choose Product"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:42
+msgid ""
+"Choose the Products that you want to show in the slider. Leave this field "
+"empty if you want all categories to be shown in the slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:56
+msgid "Content Settings"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:59
+msgid "Slider Template"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:60
+msgid "Choose a template for your Product Slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:72
+msgid "Show Title"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:73
+msgid "Show or Hide Product Slider title"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:81
+msgid "Hide \"Add to cart\" in slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:88
+msgid "Hide price"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:89
+msgid "Hide product price in slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:96
+msgid "Images for row"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:105
+msgid "Order By"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:109
+msgid "Name"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:110
+msgid "Price"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:120
+msgid "Order Type"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:134
+msgid "Slider Settings"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:138
+msgid "Loop slider"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:139
+msgid "Choose if you want your slider to scroll products continuously"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:146
+msgid "Pagination Speed"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:147
+msgid "Pagination speed in milliseconds"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:155
+msgid "AutoPlay"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:156
+msgid "Insert the autoplay value in milliseconds, enter 0 to disable it"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:163
+msgid "Stop on Hover"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:164
+msgid "Stop autoplay on mouse hover"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:171
+msgid "Show Navigation"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:172
+msgid "Display \"prev\" and \"next\" button"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:179
+msgid "Show Dots Navigation"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:180
+msgid "Show or Hide dots navigation"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:187
+msgid "Animation IN"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:188
+msgid ""
+"Choose entrance animation for a new slide.<br>*Animation functions work only "
+"if there is just one item in the slider and only in browsers that support "
+"perspective property"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:193
+msgid "Animation OUT"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:194
+msgid ""
+"Choose exit animation for a slide.<br>*Animation functions work only if "
+"there is just one item in the slider and only in browsers that support "
+"perspective property"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:200
+msgid "Animation Speed"
+msgstr ""
+
+#: ../includes/metaboxes/product_slider-metabox.php:201
+msgid "Enter animation duration in milliseconds"
+msgstr ""
+
+#: ../init.php:92
+msgid ""
+"YITH Banda Product Slider Carousel Premium is enabled but not "
+"effective. It requires Banda in order to work."
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:18
+#: ../plugin-options/layout2-options.php:16
+#: ../plugin-options/layout3-options.php:14
+msgid "Box background color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:26
+#: ../plugin-options/layout2-options.php:24
+#: ../plugin-options/layout3-options.php:22
+msgid "Box border color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:34
+#: ../plugin-options/layout2-options.php:32
+#: ../plugin-options/layout3-options.php:30
+msgid "Text color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:42
+#: ../plugin-options/layout2-options.php:40
+msgid "Background color of navigation arrow"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:50
+#: ../plugin-options/layout2-options.php:48
+msgid "Border color of navigation arrow"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:57
+#: ../plugin-options/layout2-options.php:55
+msgid "Text color of navigation arrow"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:65
+#: ../plugin-options/layout2-options.php:63
+#: ../plugin-options/layout3-options.php:61
+msgid "Button background color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:73
+#: ../plugin-options/layout2-options.php:71
+#: ../plugin-options/layout3-options.php:69
+msgid "Button background color on hover "
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:81
+#: ../plugin-options/layout2-options.php:79
+#: ../plugin-options/layout3-options.php:77
+msgid "Button text color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:88
+#: ../plugin-options/layout2-options.php:86
+#: ../plugin-options/layout3-options.php:84
+msgid "Button text color on hover"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:96
+#: ../plugin-options/layout2-options.php:93
+#: ../plugin-options/layout3-options.php:91
+msgid "Button border color"
+msgstr ""
+
+#: ../plugin-options/layout1-options.php:103
+#: ../plugin-options/layout2-options.php:100
+#: ../plugin-options/layout3-options.php:98
+msgid "Button border color on hover"
+msgstr ""
+
+#: ../plugin-options/layout3-options.php:38
+msgid "Background color navigation arrow"
+msgstr ""
+
+#: ../plugin-options/layout3-options.php:46
+msgid "Border color navigation arrow"
+msgstr ""
+
+#: ../plugin-options/layout3-options.php:53
+msgid "Text color navigation arrow"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:10
+msgid "General Settings"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:16
+msgid "Enable Responsive"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:24
+msgid "Items in Standard Desktop"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:26
+msgid ""
+"This allows you to preset the number of slides visible with a specific "
+"browser width. For browser width between 767 and 991, this option works only "
+"if responsive slider is enabled"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:35
+msgid "Items in Tablet"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:38
+msgid ""
+"This allows you to preset the number of slides visible with a particular "
+"browser width. For browser width between 479 and 766, this option works only "
+"if responsive slider is enabled"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:46
+msgid "Items in Mobile"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:49
+msgid ""
+"This allows you to preset the number of slides visible with a particular "
+"browser width. For browser width between 0 and 478, this option works only "
+"if responsive slider option is enabled"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:58
+msgid "Product to show"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:61
+msgid ""
+"This option lets you choose the number of products you want to show. -1 for "
+"all"
+msgstr ""
+
+#: ../plugin-options/settings-options.php:70
+msgid "Enable Rtl support"
+msgstr ""
+
+#: ../templates/admin/lightbox.php:43
+msgid "Add shortcode"
+msgstr ""
+
+#: ../templates/admin/lightbox.php:119 ../templates/admin/lightbox.php:121
+msgid "Select a Slider"
+msgstr ""
+
+#: ../templates/admin/lightbox.php:131
+msgid "z-index"
+msgstr ""
+
+#: ../templates/admin/lightbox.php:137
+msgid "Insert"
+msgstr ""
+
+#: ../templates/metaboxes/types/select-group.php:27
+msgid "None"
+msgstr ""

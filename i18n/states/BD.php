@@ -1,0 +1,77 @@
+<?php
+/**
+ * Bangladeshi states (districts)
+ *
+ * @author      Mtaandao
+ * @category    i18n
+ * @package     Banda/i18n
+ * @version     2.0.0
+ */
+global $states;
+
+$states['BD'] = array(
+	'BAG'  => __( 'Bagerhat', 'banda' ),
+	'BAN'  => __( 'Bandarban', 'banda' ),
+	'BAR'  => __( 'Barguna', 'banda' ),
+	'BARI' => __( 'Barisal', 'banda' ),
+	'BHO'  => __( 'Bhola', 'banda' ),
+	'BOG'  => __( 'Bogra', 'banda' ),
+	'BRA'  => __( 'Brahmanbaria', 'banda' ),
+	'CHA'  => __( 'Chandpur', 'banda' ),
+	'CHI'  => __( 'Chittagong', 'banda' ),
+	'CHU'  => __( 'Chuadanga', 'banda' ),
+	'COM'  => __( 'Comilla', 'banda' ),
+	'COX'  => __( 'Cox\'s Bazar', 'banda' ),
+	'DHA'  => __( 'Dhaka', 'banda' ),
+	'DIN'  => __( 'Dinajpur', 'banda' ),
+	'FAR'  => __( 'Faridpur ', 'banda' ),
+	'FEN'  => __( 'Feni', 'banda' ),
+	'GAI'  => __( 'Gaibandha', 'banda' ),
+	'GAZI' => __( 'Gazipur', 'banda' ),
+	'GOP'  => __( 'Gopalganj', 'banda' ),
+	'HAB'  => __( 'Habiganj', 'banda' ),
+	'JAM'  => __( 'Jamalpur', 'banda' ),
+	'JES'  => __( 'Jessore', 'banda' ),
+	'JHA'  => __( 'Jhalokati', 'banda' ),
+	'JHE'  => __( 'Jhenaidah', 'banda' ),
+	'JOY'  => __( 'Joypurhat', 'banda' ),
+	'KHA'  => __( 'Khagrachhari', 'banda' ),
+	'KHU'  => __( 'Khulna', 'banda' ),
+	'KIS'  => __( 'Kishoreganj', 'banda' ),
+	'KUR'  => __( 'Kurigram', 'banda' ),
+	'KUS'  => __( 'Kushtia', 'banda' ),
+	'LAK'  => __( 'Lakshmipur', 'banda' ),
+	'LAL'  => __( 'Lalmonirhat', 'banda' ),
+	'MAD'  => __( 'Madaripur', 'banda' ),
+	'MAG'  => __( 'Magura', 'banda' ),
+	'MAN'  => __( 'Manikganj ', 'banda' ),
+	'MEH'  => __( 'Meherpur', 'banda' ),
+	'MOU'  => __( 'Moulvibazar', 'banda' ),
+	'MUN'  => __( 'Munshiganj', 'banda' ),
+	'MYM'  => __( 'Mymensingh', 'banda' ),
+	'NAO'  => __( 'Naogaon', 'banda' ),
+	'NAR'  => __( 'Narail', 'banda' ),
+	'NARG' => __( 'Narayanganj', 'banda' ),
+	'NARD' => __( 'Narsingdi', 'banda' ),
+	'NAT'  => __( 'Natore', 'banda' ),
+	'NAW'  => __( 'Nawabganj', 'banda' ),
+	'NET'  => __( 'Netrakona', 'banda' ),
+	'NIL'  => __( 'Nilphamari', 'banda' ),
+	'NOA'  => __( 'Noakhali', 'banda' ),
+	'PAB'  => __( 'Pabna', 'banda' ),
+	'PAN'  => __( 'Panchagarh', 'banda' ),
+	'PAT'  => __( 'Patuakhali', 'banda' ),
+	'PIR'  => __( 'Pirojpur', 'banda' ),
+	'RAJB' => __( 'Rajbari', 'banda' ),
+	'RAJ'  => __( 'Rajshahi', 'banda' ),
+	'RAN'  => __( 'Rangamati', 'banda' ),
+	'RANP' => __( 'Rangpur', 'banda' ),
+	'SAT'  => __( 'Satkhira', 'banda' ),
+	'SHA'  => __( 'Shariatpur', 'banda' ),
+	'SHE'  => __( 'Sherpur', 'banda' ),
+	'SIR'  => __( 'Sirajganj', 'banda' ),
+	'SUN'  => __( 'Sunamganj', 'banda' ),
+	'SYL'  => __( 'Sylhet', 'banda' ),
+	'TAN'  => __( 'Tangail', 'banda' ),
+	'THA'  => __( 'Thakurgaon', 'banda' )
+);
