@@ -1,0 +1,36 @@
+<?php 
+$multiple = '';
+$multipleSymbol = '';
+
+$data = (isset($item['event'])) ? ' data-event="'.$item['event'].'"' : '';
+
+if(isset($item['attr'])) {
+    $multiple = $item['attr'];
+    $multipleSymbol = '[]';
+}
+
+if(!isset($currentValue)) {
+    $currentValue = array();
+}
+
+if (!is_array($currentValue)) {
+    $currentValue = array($currentValue); 
+}
+?>
+<select <?php echo $data; ?>  <?php echo $multiple; ?> name="<?php echo $ident.$multipleSymbol; ?>">
+    <?php
+    if (!array_key_exists('values', $item)) {
+        $item['values'] = array(
+            'Currently you do not have menus added, to add a menu,',
+            'please go to Appearance > Menus > Add New'
+        );
+    }
+    
+    foreach ($item['values'] as $value => $key) {
+        $selected = ($currentValue == $value || in_array($value, $currentValue)) ? ' selected="selected"' : '';
+    ?>
+        <option value="<?php echo $value; ?>"<?php echo $selected; ?>><?php echo $key; ?></option>
+    <?php
+    }
+    ?>
+</select>

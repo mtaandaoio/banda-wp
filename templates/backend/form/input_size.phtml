@@ -1,0 +1,19 @@
+<?php 
+$class = (isset($item['class'])) ? $item['class'] : '';
+
+$disabled = ($this->_currentIconFolder == 'default' && $ident != 'fontSize') ? 'disabled="disabled"' : '';
+
+if ($disabled) {
+?>
+<input  type="hidden"   name="<?php echo $ident; ?>" value ='<?php echo $currentValue; ?>' >
+<?php    
+}
+?>
+<input <?php echo $disabled;?> type="number"  class="<?php echo $class ;?>" name="<?php echo $ident; ?>" value ='<?php echo $currentValue; ?>' >
+<span class="festi-cart-add-on">
+    <?php 
+    if(isset($item['lable'])) {
+        echo $item['lable'];
+    } 
+    ?>
+</span>

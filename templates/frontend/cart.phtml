@@ -1,0 +1,37 @@
+<?php
+$vars = array(
+    'productCount' => $banda->cart->get_cart_contents_count()
+);
+
+if (isset($additionaClass) && $additionaClass == 'festi-cart-widget') {
+    echo $this->fetch('show_or_hide_widget.phtml', $vars);
+}
+
+$hideCart = (array_key_exists('hideCart', $settings) && !empty($settings['hideCart']) && !$vars['productCount']) ? 'woocart-hide' : 'woocart-show';
+
+
+$classForEvent = (wp_is_mobile() || $settings['dropdownAction'] == 'disable') ? '' : $settings['dropdownAction'];
+?>
+
+
+<a id="festi-cart" 
+    class="
+        festi-cart
+        <?php if (isset($additionaClass) && ($additionaClass!='festi-cart-menu' || (array_key_exists('customizeCartInMenu', $settings) && !empty($settings['customizeCartInMenu'])) )) echo 'festi-cart-customize'; ?>  
+        <?php if (isset($additionaClass)) echo $additionaClass; ?>  
+        festi-cart-<?php echo $classForEvent; ?>
+        <?php echo $hideCart; ?>
+    "
+    href="<?php echo $banda->cart->get_cart_url();?>"
+>
+    <?php
+    if (isset($additionaClass)) {
+       $vars['additionaClass'] = $additionaClass;
+    }
+
+    $vars['banda'] = $banda;
+    $vars['settings'] = $settings;
+     
+    echo $this->fetch('cart_content.phtml', $vars); 
+     ?>
+</a>

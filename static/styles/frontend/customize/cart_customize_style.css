@@ -1,0 +1,64 @@
+
+
+body  a#festi-cart.festi-cart.festi-cart-customize
+{
+    text-align: left;
+    background-color: rgba(
+        227,
+        227,
+        227,
+        0.9    );
+    border: 0px solid;
+    border-color: #6f6f6f;
+    padding: 10px;
+    border-radius:
+        1px
+        1px
+        1px
+        1px
+    ;
+    }
+body  a#festi-cart.festi-cart.festi-cart-customize:hover,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active
+{
+    background-color: rgba(
+        224,
+        221,
+        224,
+        1    );
+    border-color: #6f6f6f;
+}
+
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-total small,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-dropdown-arrow,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-dropdown-arrow
+{
+    color: #d23a1c; 
+}
+
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total small,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow
+{
+    font-size:  13px ;
+    color: #6f6f6f;    
+}
+
+

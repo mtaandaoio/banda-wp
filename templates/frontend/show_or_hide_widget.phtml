@@ -1,0 +1,15 @@
+<?php
+$widgetOptions = $this->getOptions('widget_options');
+
+if (isset($widgetOptions['hideCart']) && $widgetOptions['hideCart'] != null) {
+    
+    $event = ($productCount) ? 'show' : 'hide';
+?>
+    <script type="text/javascript">
+    jQuery( document ).ready(function() 
+    {
+        jQuery('.festi-cart-widget-content').<?php echo $event; ?>();
+    })
+    </script>
+<?php
+}

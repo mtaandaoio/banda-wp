@@ -1,0 +1,136 @@
+
+body div.festi-cart-products div.festi-cart-products-content
+{
+    border: 0px solid;
+    padding: 10px;
+    border-color: #ccc7c3;
+    border-radius:
+        2px
+        2px
+        2px
+        2px
+    ;
+    background-color: rgba(
+        255,
+        255,
+        255,
+        1    );
+    }
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title a.festi-cart-title,
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-title
+{
+    color: #00497d;
+    font-size: 13px;
+}
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title a.festi-cart-title:hover
+{
+    color: #d23a1c;
+}
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-count,
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-price,
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-price span.amount
+{
+    color: #1f1e1e;
+    font-size: 13px;
+}
+body div.festi-cart-products-content > div.festi-cart-total
+{
+        border: 0px solid;
+    border-color: #ffffff;
+    border-radius: 7px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 13px;
+    text-align: right;
+}
+
+
+body div.festi-cart-products-content > p.festi-cart-buttons a.festi-cart-view-cart
+{
+        
+     border: 1px solid;
+     border-color: #e0e0e0;
+     border-radius: 1px;
+     background-color: #6caff7;
+     color: #ffffff;
+     font-size: 13px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+body div.festi-cart-products-content > p.festi-cart-buttons a.festi-cart-view-cart:hover
+{
+     background-color: #6caff7;
+     border-color: #e0e0e0;
+     color: #ffffff;
+}
+
+body div.festi-cart-products-content > p.festi-cart-buttons a.festi-cart-checkout
+{
+         
+     border: 1px solid;
+     border-color: #e0e0e0;
+     border-radius: 1px;
+     background-color: #d23a1c;
+     color: #ffffff;
+     font-size: 13px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+}
+
+body div.festi-cart-products-content > p.festi-cart-buttons a.festi-cart-checkout:hover
+{
+     background-color: #d23a1c;
+     border-color: #e0e0e0;
+     color: #ffffff;
+}
+
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete
+{
+    vertical-align: top;  
+}
+
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete a.festi-cart-remove-product
+{   
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+    float: left;
+}
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete a.festi-cart-remove-product:hover
+{   
+    color: #6f6f6f;
+}
+body div.festi-cart-products-content  table.festi-cart-list tr,
+body div.festi-cart-products-content  table.festi-cart-list tr td
+{
+    border-bottom: 1px solid;
+    border-bottom-color: #e8e4e3;
+}
+div.festi-cart-products-content  table.festi-cart-list tr.festi-cart-empty
+{
+    color: #111111;
+    padding: 0;
+}
+body div.festi-cart-products-content  table.festi-cart-list tr.festi-cart-empty td.festi-cart-empty
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-img a.festi-cart-img img,
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-img span.festi-cart-img img
+{
+           
+        max-width: 40px;
+      
+     
+        width: 40px;
+    }
+
+
+body div.festi-cart-products-content  table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-variation-attribut
+{
+    font-size: 12px;
+    display: block;
+}
+
+

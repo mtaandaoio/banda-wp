@@ -226,13 +226,7 @@ class WC_Admin {
 		if ( isset( $current_screen->id ) && apply_filters( 'banda_display_admin_footer_text', in_array( $current_screen->id, $wc_pages ) ) ) {
 			// Change the footer text
 			if ( ! get_option( 'banda_admin_footer_text_rated' ) ) {
-				$footer_text = sprintf( __( 'If you like <strong>Banda</strong> please leave us a %s&#9733;&#9733;&#9733;&#9733;&#9733;%s rating. A huge thanks in advance!', 'banda' ), '<a href="https://wordpress.org/support/view/plugin-reviews/banda?filter=5#postform" target="_blank" class="wc-rating-link" data-rated="' . esc_attr__( 'Thanks :)', 'banda' ) . '">', '</a>' );
-				wc_enqueue_js( "
-					jQuery( 'a.wc-rating-link' ).click( function() {
-						jQuery.post( '" . WC()->ajax_url() . "', { action: 'banda_rated' } );
-						jQuery( this ).parent().text( jQuery( this ).data( 'rated' ) );
-					});
-				" );
+	
 			} else {
 				$footer_text = __( 'Thank you for selling with Banda.', 'banda' );
 			}

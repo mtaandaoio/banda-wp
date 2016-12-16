@@ -1,0 +1,261 @@
+<?php
+$imagesFolder = 'manual/';
+?>
+
+<div class="festi-cart">
+    <div class="festi-cart-help">
+        <p class="festi-cart-section-item"><a  href="#wheres-my-cart">Where's my cart?</a></p>
+        <p class="festi-cart-sub festi-cart-section-item"><a href="#use-shortcode">Use Shortcode</a></p>
+        <p class="festi-cart-sub festi-cart-section-item"><a class="c1" href="#use-sidebar-wdiget">Use Sidebar Wiget</a></p>
+        <p class="festi-cart-sub festi-cart-section-item"><a class="c1" href="#use-cart-in-menu">Use Cart in Menu</a></p>
+        <p class="festi-cart-section-item"><a class="c1" href="#what-i-can-change-in-the-settings">What i can change in the settings?</a></p>
+        <p class="festi-cart-section-item"><a class="c1" href="#how-to-change-Folder-Permissions">How to change Folder Permissions?</a></p>
+        <br />
+        
+        <h3 class="festi-cart-section-header" id="wheres-my-cart">Where's my cart?</h3>
+        <div class="festi-cart-section-content">
+            If you're reading this, then you have successfully installed and 
+            enabled the plugin and you're just wondering why the cart isn't 
+            appearing? You need to configure the display of  cart:
+            <h4 class="festi-cart-sub-section-header" id="use-shortcode">Use Shortcode</h4>
+            <div class="festi-cart-sub-section-content">
+                Shortcode are an easy and quick way to insert WooCart Pro into 
+                your posts or pages:
+                <ul class="list">
+                    <li>Paste next shortcode into your page or post: 
+                        <input class="festi-cart-short-code" type="text" readonly="readonly" value="[BandaWooCartPro]">
+                    </li>
+                    
+                    <li>Or  insert shortcode into php code*:
+                        <?php echo file_get_contents($this->getPluginTemplatePath('shortcode.phtml'))?>
+                    </li>
+                </ul>
+                <p class="warning">
+                    <strong>* Warning:</strong> If you are not a developer before making changes to the code be shure you have backup!
+                </p>
+            </div>
+            
+            <h4 class="festi-cart-sub-section-header" id="use-sidebar-wdiget">Use Sidebar Wiget</h4>
+            <div class="festi-cart-sub-section-content">
+                To insert cart to sidabar wiget:
+                <ul class="list">
+                    <li>
+                        Log in dashboard of your WordPress. 
+                    </li>
+                    
+                    <li>
+                        Next follow the way Appearance ► Widgets.
+                    </li>
+                    
+                    <li>
+                        Drag the “WooCart Pro” widget to the desired sidebar.
+                    </li>
+                </ul>
+                
+                <h4 class="options-header" id="use-sidebar-wdiget">Widget Options:</h4>
+                <ul class="list options">
+                    <li>
+                        <strong>Title</strong> - The title to be seen above the widget.
+                    </li>
+                    
+                    <li>
+                        <strong>Hide if cart is empty</strong> – this allows you to hide the cart if the user has yet to add any products.
+                    </li>
+                </ul>
+                <p>
+                    Click "Save" after making any changes.
+                </p>
+            </div>
+            
+            <h4 class="festi-cart-sub-section-header" id="use-cart-in-menu">Use Cart in Menu</h4>
+            <div class="festi-cart-sub-section-content">
+                For displaying cart in menu  follow steps:
+                <ul class="list">
+                    <li>
+                        Go to WooCart Pro ► Settings.
+                    </li>
+                    
+                    <li>
+                        Scroll down to Menu section.
+                    </li>
+                    
+                    <li>
+                        Put the check box to enable the menu display  cart.
+                    </li>
+                    
+                    <li>
+                        Select menu, where you want to display the  cart.  
+                        To select more then one - hold the CTRL  on the 
+                        keyboard nd select the products.
+                    </li>
+                    
+                     <li>
+                        Select in what part the menu will be displayed  carts.
+                    </li>
+                </ul>
+                <p>
+                    Click the Save button to insert the image into site.
+                </p>
+            </div>
+        </div>
+        
+        <h3 class="festi-cart-section-header" id="what-i-can-change-in-the-settings">What i can change in the settings?</h3>
+        <div class="festi-cart-section-content">
+            This section contains options for controlling the settings of 
+            places to be displayed  Cart, and how it should work and look 
+            on the pages of your online store. <strong>Let's review it:</strong>
+            <ul class="festi-cart-list festi-cart-options">
+                <li>
+                    <strong>Cart Icon</strong> - check if you need to show image for cart
+                </li>
+                
+                <li>
+                    <strong>Icons</strong> - select one of icon and choose color for it
+                </li>
+                
+                <li>
+                    <strong>Width for Сustom Icon</strong> -  if you want 
+                    to upload own icon for a cart, please put image width in px.
+                </li>
+                
+                <li>
+                    <strong>Height for Сustom Icon</strong> - if you want 
+                    to upload own icon for a cart,please put image heigh in px.
+                </li>
+                
+                <li>
+                    <strong>Custom Icon</strong> - use the "upload image" 
+                    option to upload your own disignet cart image. Recommended 
+                    not less than size 20x20 pixels.
+                </li>
+                
+                <li>
+                    <strong>Title for Cart</strong> - you can change the title 
+                    of cart.
+                </li>
+                
+                <li>
+                    <strong>Dropdown Product List</strong> - сhoose on what 
+                    action to show a drop down menu with a product details.
+                </li>
+                
+                <li>
+                    <strong>Border  for Dropdown Product List</strong> - please 
+                    choose border color which will be combined with your style 
+                    cart.
+                </li>
+                
+                <li>
+                    <strong>Product Quantity</strong> -  tick if you want to 
+                    display the total number of products in cart.
+                </li>
+                
+                <li>
+                    <strong>Product Quantity Position</strong> - this field 
+                    appears if you have chosen to show the quantity of goods. 
+                    Select from the drop-down list, where relatively cart will 
+                    display the number of products.
+                </li>
+                
+                <li>
+                    <strong>Font Size</strong> -  please choose font size which 
+                    displays the number of products in cart, and the title of 
+                    cart.
+                </li>
+                
+                <li>
+                    <strong>Font Color</strong> - please choose font color 
+                    which displays the number of products in cart, and the 
+                    title of  cart.
+                </li>
+                
+                <li>
+                    <strong>Cart in Menu</strong> - check the box for show cart 
+                    cart in menu.
+                </li>
+                
+                <li>
+                    <strong>Displaying in Menu</strong> - select where you want 
+                    to show  cart. Use СTRL to select multiple menu.
+                </li>
+                
+                <li>
+                    <strong>Position in Menu</strong> - select the location for 
+                    cart in the menu.
+                </li>
+            </ul>
+        </div>
+        
+        <h3 class="festi-cart-section-header" id="how-to-change-Folder-Permissions">How to change Folder Permissions?</h3>
+        <div class="festi-cart-section-content">
+            <img style="max-width: 100%;" src="<?php echo $this->getPluginImagesUrl($imagesFolder.'screen_errors.png')?>" />
+            <p>
+                This issue is most commonly caused by wrong file permissions.
+            </p>
+            <p>
+                Your uploads directory should have correct file permissions 
+                otherwise WordPress will not be able to store your files in it 
+                or sometimes may not even display files from the upload 
+                directory.
+            </p> 
+            <p>
+                To set correct file permissions for your uploads directory, 
+                you would need a FTP client, like Filezilla.
+            </p>
+            
+            <p>
+                If you see warning like this you need connect to your website 
+                using the FTP client and then go to 
+                /wp-content/plugins/banda-woocartpro/directory. 
+            </p>
+            <p>
+                There you will see /plugins/banda-woocartpro/.  
+                Right click on the uploads directory and select file permissions.
+            </p>
+            <img style="max-width: 100%;" src="<?php echo $this->getPluginImagesUrl($imagesFolder.'screen_permissions.png')?>" />
+            <p>
+                A new dialog box for file permissions will open. At first you 
+                will need to set file permissions for uploads directory itself 
+                and all the sub directories inside it to 777.
+            </p>
+            <p>
+                To do that, enter 
+                777 in the numberic value box, and then check the box next 
+                toRecurse into subdirectories.
+            </p>
+            <p>
+                Lastly, you need to click on 
+                'Apply to directories only' radio button.
+            </p>
+            <p>
+                Click on the OK button 
+                to apply these changes. Filezilla will now start applying file 
+                permissions to the directories.
+            </p>
+
+            <img style="max-width: 100%;" src="<?php echo $this->getPluginImagesUrl($imagesFolder.'screen_atribbutes.png')?>" />
+            <p>
+                Filezilla will now set the file permissions for all the 
+                directories Once it is done, you can go back to your WooCart Pro 
+                Settings and click on Refresh plagin button.
+            </p>
+            <img style="max-width: 100%;" src="<?php echo $this->getPluginImagesUrl($imagesFolder.'screen_refresh.png')?>" />
+            <p>
+               After refreshing you will see success message:
+            </p>
+            <img style="max-width: 100%;" src="<?php echo $this->getPluginImagesUrl($imagesFolder.'screen_success_update.png')?>" />
+
+        </div>
+        
+        <h3 class="section-header">I have another question...</h3>
+        <div class="section-content">
+            <p>
+                If you need support  or  you have a question or suggestion - 
+                leave a message for our support team.
+            </p>
+             <p>
+                <a href="mailto:support@festi.io">support@festi.io</a>
+            </p>
+        </div>
+    </div>
+</div>

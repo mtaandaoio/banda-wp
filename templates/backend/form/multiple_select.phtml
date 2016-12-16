@@ -1,0 +1,15 @@
+<select data-placeholder="<?php echo $this->getLang('Select Pages'); ?>" id="festi-display-cart-on-page" name="festiDisplayCartOnPage[]" multiple>
+<?php 
+    foreach ($item['values'] as $id => $title) {
+        if ($this->isSelectedPageForCart($id)) {
+?>
+            <option selected value="<?php echo $id ?>"><?php echo $title; ?></option>
+<?php
+        } else {
+?>
+            <option value="<?php echo $id ?>"><?php echo $title; ?></option>
+<?php 
+        }
+    }
+?>
+</select>

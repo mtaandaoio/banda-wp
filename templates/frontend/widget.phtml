@@ -1,0 +1,27 @@
+<?php $displayValue = 'block';
+
+$productCount = $banda->cart->get_cart_contents_count();
+if (isset($options['hideCart']) && $options['hideCart']!=null && $productCount < 1) {
+    $displayValue = 'none';
+}
+?>
+<div style="display: <?php echo $displayValue; ?>;" class="festi-cart-widget-content">
+    <?php
+    echo $params['before_widget'];
+    if(!empty($options['title'])) {
+        echo $params['before_title'] . $options['title']. $params['after_title'];
+    }
+    
+    if (!isset($options['displayAsList'])) {
+    ?>
+                <a class="festi-cart festi-cart-widget"></a>
+    <?php        
+    } else {
+    ?>
+        <div  class="festi-cart-widget-products-content"></div>
+    <?php    
+    }
+        echo $params['after_widget'];
+    ?>
+    
+</div>

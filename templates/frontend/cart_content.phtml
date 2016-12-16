@@ -1,0 +1,145 @@
+<?php
+$styles = array(
+    'CartContent' => '',
+);
+
+$iconImg = '';
+$iconImgLeft = '';
+$iconImgRight = '';
+$dropdownArrowLeft = '';
+$dropdownArrowRight = '';
+
+if (array_key_exists('displayIcon', $settings) && !empty($settings['displayIcon'])) {
+    $userIconPath = $this->getPluginIconsPath('user/');
+
+    if (!file_exists($userIconPath)) {
+        $this->_currentIconFolder = 'default';
+    }
+
+    $currentIcon = $settings['iconList'];
+
+    if ($currentIcon != 0) {
+        $icon = 'icon' . $settings['iconList'] . '.png';
+
+        if ($this->_currentIconFolder == 'default') {
+            $iconUrl = $this->getPluginIconsUrl($icon, 'default');
+            $iconUrlOnHover = $iconUrl;
+        } else {
+            $iconUrl = $this->getPluginIconsUrl($icon, 'user');
+            $iconUrlOnHover = $this->getPluginIconsUrl($icon, 'user/on_hover');
+        }
+
+    } else {
+        $icon = $settings['customIcon'];
+        $iconUrl = $this->getPluginIconsUrl($icon, 'user');
+
+        if (isset($settings['customIconOnHover']) && !empty($settings['customIconOnHover'])) {
+            $iconUrlOnHover = $this->getPluginIconsUrl($icon, 'user/on_hover');
+        } else {
+            $iconUrlOnHover = $iconUrl;
+        }
+    }
+
+    if ($this->_currentIconFolder == 'default') {
+        $size = array(SettingsWooCartFacade::DEFAULT_ICON_SIZE, SettingsWooCartFacade::DEFAULT_ICON_SIZE);
+        $iconImg = '<img class="festi-cart-icon" width="' . $size[0] . '" height="' . $size[1] . '"  align="absmiddle" src="' . $iconUrl . '" />';
+    } else {
+        $iconPath = $userIconPath . $icon;
+        $size = getimagesize($iconPath);
+        $iconImg = '<img class="festi-cart-icon" width="' . $size[0] . '" height="' . $size[1] . '"  align="absmiddle" src="' . $iconUrl . '" />';
+        $iconImg .= '<img style="display: none;" class="festi-cart-icon festi-on-hover" width="' . $size[0] . '" height="' . $size[1] . '"  align="absmiddle" src="' . $iconUrlOnHover . '" />';
+    }
+
+    $styles['CartContent'] .= ' line-height: ' . $size[1] . 'px !important; ';
+
+    if ($settings['iconPosition'] == 0) {
+        $iconImgLeft = $iconImg;
+    } else {
+        $iconImgRight = $iconImg;
+    }
+
+}
+
+if ($settings['dropdownAction'] != 'disable' && $settings['dropdownArrow'] != 0) {
+    $dropdownArrowContent = $this->fetch('drop_down_arrow.phtml');
+
+    if ($settings['dropdownArrow'] == 1) {
+        $dropdownArrowLeft = $dropdownArrowContent;
+    } else {
+        $dropdownArrowRight = $dropdownArrowContent;
+    }
+}
+
+?>
+<div style="<?php echo $styles['CartContent']; ?>" class="festi-cart-content">
+
+    <?php echo $dropdownArrowLeft; ?>
+    <?php echo $iconImgLeft; ?>
+
+
+
+    <?php
+    if ($settings['LocationInCart']) { ?>
+
+        <span
+            class="festi-cart-position <?php if ($productCount) echo "budgeCounter position-" . $settings['LocationInCart'] ?>">
+            <p>
+                <?php if ($banda->cart->get_cart_contents_count()) {
+                    echo $banda->cart->get_cart_contents_count();
+                } ?>
+            </p>
+        </span>
+    <?php } else { ?>
+
+
+        <span class="festi-cart-text-before-quantity">
+            <?php
+            if ($productCount == 1 || empty($settings['textBeforeQuantityPlural'])) {
+                echo $settings['textBeforeQuantity'];
+            } else {
+                echo $settings['textBeforeQuantityPlural'];
+            }
+            ?>
+        </span>
+        <?php
+        if (array_key_exists('displayCartQuantity', $settings) && !empty($settings['displayCartQuantity'])) {
+            ?>
+            <span class="festi-cart-quantity">
+            <?php echo $productCount; ?>
+        </span>
+            <?php
+        }
+        ?>
+        <span class="festi-cart-text-after-quantity">
+            <?php
+            if ($productCount == 1 || empty($settings['textAfterQuantityPlural'])) {
+                echo $settings['textAfterQuantity'];
+            } else {
+                echo $settings['textAfterQuantityPlural'];
+            }
+            ?>
+        </span>
+
+    <?php } ?>
+
+    <span class="festi-cart-text-before-total">
+            <?php echo $settings['textBeforeTotal']; ?>
+        </span>
+    <?php
+    if (array_key_exists('displayCartTotal', $settings) && !empty($settings['displayCartTotal'])) {
+        ?>
+        <span class="festi-cart-total">
+            <?php echo $banda->cart->get_cart_subtotal(); ?>
+        </span>
+        <?php
+    }
+    ?>
+    <span class="festi-cart-text-after-total">
+            <?php echo $settings['textAfterTotal']; ?>
+        </span>
+
+
+    <?php echo $iconImgRight; ?>
+    <?php echo $dropdownArrowRight; ?>
+
+</div>

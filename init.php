@@ -3,8 +3,6 @@ if( !defined( 'ABSPATH' ) ){
     exit;
 }
 
-require_once 'plugin-fw/yit-core.php';
-
 if( ! function_exists( 'yit_deactive_free_version' ) ) {
     require_once 'plugin-fw/yit-deactive-plugin.php';
 }

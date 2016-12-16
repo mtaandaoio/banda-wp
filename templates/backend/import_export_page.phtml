@@ -1,0 +1,20 @@
+
+<div class="festi-cart">
+    <h3><?php echo __('Import Settings', $this->_languageDomain); ?></h3>
+    <p><?php echo __('Paste the JSON', $this->_languageDomain); ?></p>
+    <?php
+        $url = $this->getUrl();
+    ?>
+    <form action="<?php echo $url; ?>"  method="post" class="festi-cart festi-cart-form">
+        <input type="hidden" name="__action" value="import" /> 
+        <textarea cols="75" rows="10" name="importSettings"></textarea>
+        <div>
+            <input type="submit" id="cartSettings" value="<?php echo __('Import', $this->_languageDomain); ?>" name="cartSettings" class="button button-primary">
+        </div>
+    </form>
+    
+    <h3><?php echo __('Export Current Settings', $this->_languageDomain); ?></h3>
+    <p><?php echo __('Click on the text area to copy JSON', $this->_languageDomain); ?></p>
+    <textarea class="festi-cart-export" cols="75" rows="10" name="expoSettings"><?php echo $jsonCode; ?></textarea>
+       
+</div>

@@ -1,0 +1,22 @@
+<?php
+if ($currentValue != '')
+{   
+    $iconUrl = $this->getPluginIconsUrl($currentValue, 'user/on_hover');
+    
+    if ($this->isUploadCustomIcon('customIconOnHover')){
+         $iconUrl .= "?update"; 
+    }
+?>
+
+<div class="festi-cart-icon-custom-on-hover festi-cart-custom"> 
+    <span >
+        <img  id="0"  align="absmiddle" src="<?php echo $iconUrl;  ?>" />
+    </span>
+</div>
+<?php  
+}
+
+$disabled = ($this->_currentIconFolder == 'default') ? 'disabled="disabled"' : '';
+?>
+<input name="<?php echo $ident; ?>" type="hidden" value="<?php echo  $currentValue; ?>">
+<input <?php echo $disabled; ?> id="filebutton" name="<?php echo $ident; ?>" class="input-file" type="file">

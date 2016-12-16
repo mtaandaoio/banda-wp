@@ -1,0 +1,16 @@
+<?php 
+if ($this->isEnableDisplayingCartInMenu($this->settings, false))
+{
+?>
+    <a = id="BandaWooCartProInMenu"></a>
+<?php   
+} else {
+?>
+    <span>
+        <strong>WooCart Pro:</strong> <br />
+        <?php _e('Enable displaying cart in menu', $this->_languageDomain); ?>
+    </span>
+<?php 
+}
+
+?>

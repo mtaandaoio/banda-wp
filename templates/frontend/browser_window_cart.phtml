@@ -1,0 +1,20 @@
+<?php
+$classes = ' festi-cart-horizontal-position-'.$settings['windowCartHorizontalPosition'];
+
+$classes .= ' festi-cart-vertical-position-'.$settings['windowCartVerticalPosition'];
+
+if (!empty($settings['windowCartFixedPosition'])) {
+    $classes .= ' festi-cart-fixed-position';
+}
+
+?>
+<div
+    style="
+        margin-top: <?php echo $settings['windowCartMarginTop']; ?>px;
+        margin-left: <?php echo $settings['windowCartMarginLeft']; ?>px;
+        margin-right: <?php echo $settings['windowCartMarginRight']; ?>px;
+    " 
+    class="festi-cart-window-content <?php echo $classes; ?>"
+>
+    <a class="festi-cart festi-cart-window"></a>
+</div>

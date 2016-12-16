@@ -1,0 +1,1073 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Banda WooCart Pro\n"
+"POT-Creation-Date: 2015-04-07 01:15+0300\n"
+"PO-Revision-Date: 2015-04-07 16:12+0300\n"
+"Last-Translator: Vladimir <artmobster@gmail.com>\n"
+"Language-Team: Vladimir <artmobster@gmail.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: common/WooCartBackendFestiPlugin.php:129
+msgid "The catalog is not detected files that come bundled with the plugin."
+msgstr ""
+"В каталоге не обнаружены файлы, которые поставляются в комплекте с "
+"плагином."
+
+#: common/WooCartBackendFestiPlugin.php:134
+msgid "Directory: "
+msgstr "Каталог:"
+
+#: common/WooCartBackendFestiPlugin.php:292
+#: common/WooCartBackendFestiPlugin.php:643
+#: common/WooCartBackendFestiPlugin.php:703
+#: common/WooCartBackendFestiPlugin.php:737
+#: common/WooCartBackendFestiPlugin.php:769
+msgid "You don't have permission to access: "
+msgstr "У вас не достаточно полномочий для доступа:"
+
+#: common/WooCartBackendFestiPlugin.php:330
+msgid "WooCart Pro Settings"
+msgstr "WooCart Pro Settings"
+
+#: common/WooCartBackendFestiPlugin.php:331
+msgid "WooCart Pro"
+msgstr "WooCart Pro"
+
+#: common/WooCartBackendFestiPlugin.php:489
+msgid "Success update plugin"
+msgstr "Плагин успешно обновлён"
+
+#: common/WooCartBackendFestiPlugin.php:502
+msgid "Success custom icon remove"
+msgstr "Иконка успешно удалена"
+
+#: common/WooCartBackendFestiPlugin.php:514
+#: common/WooCartBackendFestiPlugin.php:3572
+msgid "Success update settings"
+msgstr "Настройки успешно изменены"
+
+#: common/WooCartBackendFestiPlugin.php:698
+msgid "Caching does not work! "
+msgstr "Кэширование не работает!"
+
+#: common/WooCartBackendFestiPlugin.php:732
+msgid "Available only standard icons! "
+msgstr "Доступны только стандартные иконки!"
+
+#: common/WooCartBackendFestiPlugin.php:764
+msgid "Styles for Customizing of cart will not added in css file! "
+msgstr "Styles for Customizing of cart will not added in css file! "
+
+#: common/WooCartBackendFestiPlugin.php:799
+msgid "General"
+msgstr "Основное"
+
+#: common/WooCartBackendFestiPlugin.php:803
+msgid "Menu"
+msgstr "Меню"
+
+#: common/WooCartBackendFestiPlugin.php:806
+msgid "Cart in Fixed Location"
+msgstr "Корзина на фиксированном месте"
+
+#: common/WooCartBackendFestiPlugin.php:810
+msgid "Customization for Cart Container"
+msgstr "Настройка блока корзины"
+
+#: common/WooCartBackendFestiPlugin.php:816
+msgid "Customization for Product List"
+msgstr "Настройка выпадающего списка"
+
+#: common/WooCartBackendFestiPlugin.php:822
+msgid " Lightbox Popup for Add to Cart action"
+msgstr "Lightbox Popup при добавлении в корзину"
+
+#: common/WooCartBackendFestiPlugin.php:847
+msgid "Cart in Menu"
+msgstr "Корзина в Меню"
+
+#: common/WooCartBackendFestiPlugin.php:849
+#: templates/frontend/shortcode/widget_text_for_menu.phtml:11
+msgid "Enable displaying cart in menu"
+msgstr "Отображать"
+
+#: common/WooCartBackendFestiPlugin.php:860
+msgid "Displaying in Menu"
+msgstr "Активно в меню"
+
+#: common/WooCartBackendFestiPlugin.php:862
+msgid "Select where you want to show cart "
+msgstr "Удерживая CTRL можно выбрать несколько"
+
+#: common/WooCartBackendFestiPlugin.php:873
+msgid "Position in Menu"
+msgstr "Расположение в меню"
+
+#: common/WooCartBackendFestiPlugin.php:875
+msgid "Select the location of cart in the menu"
+msgstr "Расположение корзины в меню"
+
+#: common/WooCartBackendFestiPlugin.php:880
+#: common/WooCartBackendFestiPlugin.php:932
+#: common/WooCartBackendFestiPlugin.php:1054
+#: common/WooCartBackendFestiPlugin.php:1073
+#: common/WooCartBackendFestiPlugin.php:1242
+#: common/WooCartBackendFestiPlugin.php:1624
+#: common/WooCartBackendFestiPlugin.php:1869
+#: common/WooCartBackendFestiPlugin.php:2103
+#: common/WooCartBackendFestiPlugin.php:2719
+#: common/WooCartBackendFestiPlugin.php:3270
+msgid "Left"
+msgstr "По левому краю"
+
+#: common/WooCartBackendFestiPlugin.php:881
+#: common/WooCartBackendFestiPlugin.php:933
+#: common/WooCartBackendFestiPlugin.php:1055
+#: common/WooCartBackendFestiPlugin.php:1074
+#: common/WooCartBackendFestiPlugin.php:1244
+#: common/WooCartBackendFestiPlugin.php:1626
+#: common/WooCartBackendFestiPlugin.php:1871
+#: common/WooCartBackendFestiPlugin.php:2105
+#: common/WooCartBackendFestiPlugin.php:2721
+#: common/WooCartBackendFestiPlugin.php:3271
+msgid "Right"
+msgstr "По правому краю"
+
+#: common/WooCartBackendFestiPlugin.php:889
+msgid "Enable Customization for Cart In Menu"
+msgstr "Enable Customization for Cart In Menu"
+
+#: common/WooCartBackendFestiPlugin.php:898
+msgid "Hide Empty cart"
+msgstr "Отображение пустой корзины"
+
+#: common/WooCartBackendFestiPlugin.php:900
+msgid "Enable hide cart option"
+msgstr "Активируйте чтобы скрыть пустую корзину"
+
+#: common/WooCartBackendFestiPlugin.php:908
+msgid "Icon"
+msgstr "Иконка"
+
+#: common/WooCartBackendFestiPlugin.php:913
+msgid "Cart Icon"
+msgstr "Иконка корзины"
+
+#: common/WooCartBackendFestiPlugin.php:914
+msgid "Enable cart icon"
+msgstr "Включить иконку корзины"
+
+#: common/WooCartBackendFestiPlugin.php:924
+msgid "Icon Position"
+msgstr "Позиция иконки"
+
+#: common/WooCartBackendFestiPlugin.php:928
+msgid "Change Icon position"
+msgstr "Изменить позицию иконки"
+
+#: common/WooCartBackendFestiPlugin.php:941
+msgid "Icons"
+msgstr "Иконки"
+
+#: common/WooCartBackendFestiPlugin.php:965
+msgid "Icon Color on Hover"
+msgstr "Цвет иконки при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:967
+#: common/WooCartBackendFestiPlugin.php:1649
+#: common/WooCartBackendFestiPlugin.php:1759
+#: common/WooCartBackendFestiPlugin.php:1973
+#: common/WooCartBackendFestiPlugin.php:2160
+#: common/WooCartBackendFestiPlugin.php:2261
+#: common/WooCartBackendFestiPlugin.php:2274
+#: common/WooCartBackendFestiPlugin.php:2625
+#: common/WooCartBackendFestiPlugin.php:2792
+#: common/WooCartBackendFestiPlugin.php:2961
+#: common/WooCartBackendFestiPlugin.php:3160
+#: common/WooCartBackendFestiPlugin.php:3318
+msgid "Change the color"
+msgstr "Изменить цвет"
+
+#: common/WooCartBackendFestiPlugin.php:978
+msgid "Width for Custom Icon"
+msgstr "Ширина для закачанной иконки"
+
+#: common/WooCartBackendFestiPlugin.php:991
+msgid "Height for Custom Icon"
+msgstr "Высота для закачанной иконки"
+
+#: common/WooCartBackendFestiPlugin.php:1002
+msgid "Custom Icon"
+msgstr "Закачанная иконка"
+
+#: common/WooCartBackendFestiPlugin.php:1004
+#: common/WooCartBackendFestiPlugin.php:1015
+msgid "Upload your own cart image"
+msgstr "Закачать свою иконку"
+
+#: common/WooCartBackendFestiPlugin.php:1013
+msgid "Custom Icon on Hover"
+msgstr "Закачанная иконка при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:1024
+msgid "Dropdown List"
+msgstr "Выпадающий список"
+
+#: common/WooCartBackendFestiPlugin.php:1030
+msgid "Dropdown Product List"
+msgstr "Выпадающий список товаров"
+
+#: common/WooCartBackendFestiPlugin.php:1034
+msgid "Select action to show dropdown product list"
+msgstr "Активируйте для отображения выпадающего списка товаров"
+
+#: common/WooCartBackendFestiPlugin.php:1038
+msgid "Disable"
+msgstr "Отключён"
+
+#: common/WooCartBackendFestiPlugin.php:1039
+msgid "On Hover"
+msgstr "При наведении курсора (не работает на планшетах)"
+
+#: common/WooCartBackendFestiPlugin.php:1040
+msgid "On Click"
+msgstr "При клике"
+
+#: common/WooCartBackendFestiPlugin.php:1050
+msgid "Alignment Relative to Cart"
+msgstr "Выравнивание выпадающего списка относительно блока корзины в меню"
+
+#: common/WooCartBackendFestiPlugin.php:1064
+msgid "Dropdown Arrow"
+msgstr "Стрелочка выпадающего списка"
+
+#: common/WooCartBackendFestiPlugin.php:1068
+msgid "Select for Show dropdown arrow"
+msgstr "Маленький треугольничек, раскрывающий список"
+
+#: common/WooCartBackendFestiPlugin.php:1072
+#: templates/backend/settings_page.phtml:19
+#: templates/backend/settings_page.phtml:24
+msgid "Hide"
+msgstr "Скрыть"
+
+#: common/WooCartBackendFestiPlugin.php:1083
+msgid "Set Maximum Number of Products"
+msgstr "Максимальное количество отображаемых продуктов"
+
+#: common/WooCartBackendFestiPlugin.php:1097
+#: common/WooCartBackendFestiPlugin.php:1560
+msgid "Scrollbar"
+msgstr "Полоса прокрутки"
+
+#: common/WooCartBackendFestiPlugin.php:1101
+#: common/WooCartBackendFestiPlugin.php:1564
+msgid "Enable scrollbar for products list"
+msgstr "Включите, если позиций так много, что не помещаются в окне"
+
+#: common/WooCartBackendFestiPlugin.php:1111
+#: common/WooCartBackendFestiPlugin.php:1575
+#: common/WooCartBackendFestiPlugin.php:3347
+msgid "Height"
+msgstr "Высота"
+
+#: common/WooCartBackendFestiPlugin.php:1125
+#: common/WooCartBackendFestiPlugin.php:1130
+msgid "Product Quantity"
+msgstr "Количество"
+
+#: common/WooCartBackendFestiPlugin.php:1132
+msgid "Enable total products amount in cart"
+msgstr "Включить отображение общего количества товаров"
+
+#: common/SettingsWooCartFacade.php:492
+msgid "Quantity Displaying Type"
+msgstr "Тип Отображения Количества"
+
+#: common/SettingsWooCartFacade.php:495
+msgid "Select how to display product quantity in cart"
+msgstr "Выберите как отображать количество товаров в корзине"
+
+#: common/WooCartBackendFestiPlugin.php:1143
+msgid "Text Before Quantity"
+msgstr "Текст перед Количества"
+
+#: common/WooCartBackendFestiPlugin.php:1145
+msgid "Change Text Before Quantity"
+msgstr "Изменить текст перед Количество"
+
+#: common/WooCartBackendFestiPlugin.php:1158
+msgid "Text After Quantity"
+msgstr "Текст после Количества"
+
+#: common/WooCartBackendFestiPlugin.php:1160
+msgid "Change Text After Quantity"
+msgstr "Изменить текст после Количество"
+
+#: common/WooCartBackendFestiPlugin.php:1172
+msgid "Total Price"
+msgstr "Общая сумма"
+
+#: common/WooCartBackendFestiPlugin.php:1177
+msgid "Cart Total Price"
+msgstr "Отображение общей суммы в корзине"
+
+#: common/WooCartBackendFestiPlugin.php:1179
+msgid "Enable Cart Total Price in cart"
+msgstr "Включить"
+
+#: common/WooCartBackendFestiPlugin.php:1190
+msgid "Text Before Total Price"
+msgstr "Текст перед общей суммой"
+
+#: common/WooCartBackendFestiPlugin.php:1194
+msgid "Change Text Before Total"
+msgstr "Изменить текст перед Всего"
+
+#: common/WooCartBackendFestiPlugin.php:1204
+msgid "Text After Total Price"
+msgstr "Текст после общей суммы"
+
+#: common/WooCartBackendFestiPlugin.php:1208
+msgid "Change Text After Total"
+msgstr "Изменить текст после Всего"
+
+#: common/WooCartBackendFestiPlugin.php:1217
+msgid "Show Cart"
+msgstr "Отображение модуля корзины на фиксированном месте экрана"
+
+#: common/WooCartBackendFestiPlugin.php:1221
+msgid "Enable displaying cart in browser window"
+msgstr "Включить."
+
+#: common/WooCartBackendFestiPlugin.php:1233
+msgid "Horizontal Location in Window"
+msgstr "Горизонтальная позиция"
+
+#: common/WooCartBackendFestiPlugin.php:1237
+msgid "Select the horizontal location of cart in the window"
+msgstr "Выберите позицию по горизонтали"
+
+#: common/WooCartBackendFestiPlugin.php:1243
+#: common/WooCartBackendFestiPlugin.php:1625
+#: common/WooCartBackendFestiPlugin.php:1870
+#: common/WooCartBackendFestiPlugin.php:2104
+#: common/WooCartBackendFestiPlugin.php:2720
+msgid "Center"
+msgstr "Центр"
+
+#: common/WooCartBackendFestiPlugin.php:1253
+msgid "Vertical Location in Window"
+msgstr "Вертикальная позиция"
+
+#: common/WooCartBackendFestiPlugin.php:1257
+msgid "Select the vertical location of cart in the window"
+msgstr "Выберите позицию по вертикали"
+
+#: common/WooCartBackendFestiPlugin.php:1262
+#: common/WooCartBackendFestiPlugin.php:3288
+msgid "Top"
+msgstr "Верх"
+
+#: common/WooCartBackendFestiPlugin.php:1263
+#: common/WooCartBackendFestiPlugin.php:3289
+msgid "Middle"
+msgstr "Середина"
+
+#: common/WooCartBackendFestiPlugin.php:1272
+msgid "Margin Top for Cart"
+msgstr "Отступ сверху (Margin Top)"
+
+#: common/WooCartBackendFestiPlugin.php:1288
+msgid "Margin Left for Cart"
+msgstr "Отступ слева (Margin Left)"
+
+#: common/WooCartBackendFestiPlugin.php:1304
+msgid "Margin Right for Cart"
+msgstr "Отступ справа (Margin Right)"
+
+#: common/WooCartBackendFestiPlugin.php:1319
+msgid "Scrolling Cart"
+msgstr "Прокрутка"
+
+#: common/WooCartBackendFestiPlugin.php:1323
+msgid "Enable scrolling for cart"
+msgstr "Включить прокрутку для корзины (если позиций достаточно много)"
+
+#: common/WooCartBackendFestiPlugin.php:1333
+msgid "Show"
+msgstr "Показать"
+
+#: common/WooCartBackendFestiPlugin.php:1337
+msgid "Enable displaying popup after adding product"
+msgstr "Включить отображение всплывающего окна после добавления в корзину"
+
+#: common/WooCartBackendFestiPlugin.php:1348
+#: common/WooCartBackendFestiPlugin.php:1471
+#: common/WooCartBackendFestiPlugin.php:2066
+#: common/WooCartBackendFestiPlugin.php:2243
+#: common/WooCartBackendFestiPlugin.php:2364
+#: common/WooCartBackendFestiPlugin.php:2487
+msgid "Width"
+msgstr "Ширина"
+
+#: common/WooCartBackendFestiPlugin.php:1363
+#: common/WooCartBackendFestiPlugin.php:2081
+#: common/WooCartBackendFestiPlugin.php:2339
+msgid "Padding"
+msgstr "Отступ слева (Padding)"
+
+#: common/WooCartBackendFestiPlugin.php:1378
+msgid "Blacked out background"
+msgstr "Затемнённый фон"
+
+#: common/WooCartBackendFestiPlugin.php:1387
+#: common/WooCartBackendFestiPlugin.php:1422
+#: common/WooCartBackendFestiPlugin.php:1457
+#: common/WooCartBackendFestiPlugin.php:2184
+#: common/WooCartBackendFestiPlugin.php:2257
+#: common/WooCartBackendFestiPlugin.php:2455
+#: common/WooCartBackendFestiPlugin.php:2501
+#: common/WooCartBackendFestiPlugin.php:3361
+msgid "Color"
+msgstr "Цвет фона"
+
+#: common/WooCartBackendFestiPlugin.php:1391
+#: common/WooCartBackendFestiPlugin.php:1426
+#: common/WooCartBackendFestiPlugin.php:1945
+#: common/WooCartBackendFestiPlugin.php:1959
+#: common/WooCartBackendFestiPlugin.php:2188
+#: common/WooCartBackendFestiPlugin.php:2201
+#: common/WooCartBackendFestiPlugin.php:2459
+#: common/WooCartBackendFestiPlugin.php:2734
+#: common/WooCartBackendFestiPlugin.php:2933
+#: common/WooCartBackendFestiPlugin.php:2947
+#: common/WooCartBackendFestiPlugin.php:3132
+#: common/WooCartBackendFestiPlugin.php:3146
+msgid "Change the background color"
+msgstr "Изменить цвет фона"
+
+#: common/WooCartBackendFestiPlugin.php:1401
+#: common/WooCartBackendFestiPlugin.php:1436
+#: common/WooCartBackendFestiPlugin.php:2210
+#: common/WooCartBackendFestiPlugin.php:2468
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: common/WooCartBackendFestiPlugin.php:1415
+msgid "Background Window"
+msgstr "Фон страницы при всплывании Popup Lightbox"
+
+#: common/WooCartBackendFestiPlugin.php:1450
+msgid "Shadow"
+msgstr "Тень"
+
+#: common/WooCartBackendFestiPlugin.php:1461
+msgid "Change the shadow color"
+msgstr "Изменить цвет тени"
+
+#: common/WooCartBackendFestiPlugin.php:1486
+msgid "Blur"
+msgstr "Размытие"
+
+#: common/WooCartBackendFestiPlugin.php:1500
+#: common/WooCartBackendFestiPlugin.php:2237
+#: common/WooCartBackendFestiPlugin.php:2481
+msgid "Border"
+msgstr "Настройка рамки"
+
+#: common/WooCartBackendFestiPlugin.php:1507
+#: common/WooCartBackendFestiPlugin.php:1997
+#: common/WooCartBackendFestiPlugin.php:2744
+#: common/WooCartBackendFestiPlugin.php:2985
+#: common/WooCartBackendFestiPlugin.php:3184
+msgid "Border Width"
+msgstr "Ширина рамки"
+
+#: common/WooCartBackendFestiPlugin.php:1522
+#: common/WooCartBackendFestiPlugin.php:2012
+#: common/WooCartBackendFestiPlugin.php:2773
+#: common/WooCartBackendFestiPlugin.php:3000
+#: common/WooCartBackendFestiPlugin.php:3199
+msgid "Border Radius"
+msgstr "Скругление рамки"
+
+#: common/WooCartBackendFestiPlugin.php:1537
+#: common/WooCartBackendFestiPlugin.php:2027
+#: common/WooCartBackendFestiPlugin.php:2759
+#: common/WooCartBackendFestiPlugin.php:3015
+#: common/WooCartBackendFestiPlugin.php:3214
+msgid "Border Color"
+msgstr "Цвет рамки"
+
+#: common/WooCartBackendFestiPlugin.php:1541
+#: common/WooCartBackendFestiPlugin.php:1773
+#: common/WooCartBackendFestiPlugin.php:1987
+#: common/WooCartBackendFestiPlugin.php:2031
+#: common/WooCartBackendFestiPlugin.php:2045
+#: common/WooCartBackendFestiPlugin.php:2170
+#: common/WooCartBackendFestiPlugin.php:2639
+#: common/WooCartBackendFestiPlugin.php:2670
+#: common/WooCartBackendFestiPlugin.php:2975
+#: common/WooCartBackendFestiPlugin.php:3019
+#: common/WooCartBackendFestiPlugin.php:3033
+#: common/WooCartBackendFestiPlugin.php:3174
+#: common/WooCartBackendFestiPlugin.php:3218
+#: common/WooCartBackendFestiPlugin.php:3232
+#: common/WooCartBackendFestiPlugin.php:3332
+#: common/WooCartBackendFestiPlugin.php:3365
+msgid "Change the Color"
+msgstr "Смена цвета"
+
+#: common/WooCartBackendFestiPlugin.php:1551
+msgid "Products List"
+msgstr "Перечень заказов"
+
+#: common/WooCartBackendFestiPlugin.php:1590
+msgid "Header Text Font Styles"
+msgstr "Стиль заголовка"
+
+#: common/WooCartBackendFestiPlugin.php:1599
+msgid "Text"
+msgstr "Текст"
+
+#: common/WooCartBackendFestiPlugin.php:1603
+#: common/WooCartBackendFestiPlugin.php:2701
+msgid "Change the text"
+msgstr "Изменить текст"
+
+#: common/WooCartBackendFestiPlugin.php:1608
+msgid "Item Added to your Cart!"
+msgstr "Заказ добавлен в вашу корзину."
+
+#: common/WooCartBackendFestiPlugin.php:1616
+#: common/WooCartBackendFestiPlugin.php:1861
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: common/WooCartBackendFestiPlugin.php:1620
+msgid "Select the location of text in popup header"
+msgstr "Select the location of text in popup header"
+
+#: common/WooCartBackendFestiPlugin.php:1634
+#: common/WooCartBackendFestiPlugin.php:1847
+#: common/WooCartBackendFestiPlugin.php:2145
+#: common/WooCartBackendFestiPlugin.php:2378
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: common/WooCartBackendFestiPlugin.php:1637
+#: common/WooCartBackendFestiPlugin.php:1850
+#: common/WooCartBackendFestiPlugin.php:2148
+#: common/WooCartBackendFestiPlugin.php:2381
+msgid "Change font size"
+msgstr "Изменить размер шрифта"
+
+#: common/WooCartBackendFestiPlugin.php:1647
+#: common/WooCartBackendFestiPlugin.php:1755
+#: common/WooCartBackendFestiPlugin.php:1969
+#: common/WooCartBackendFestiPlugin.php:2158
+#: common/WooCartBackendFestiPlugin.php:2621
+#: common/WooCartBackendFestiPlugin.php:2666
+#: common/WooCartBackendFestiPlugin.php:2788
+#: common/WooCartBackendFestiPlugin.php:2957
+#: common/WooCartBackendFestiPlugin.php:3156
+#: common/WooCartBackendFestiPlugin.php:3314
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: common/WooCartBackendFestiPlugin.php:1659
+#: common/WooCartBackendFestiPlugin.php:1783
+msgid "Margin Top"
+msgstr "Отступ сверху (Margin Top)"
+
+#: common/WooCartBackendFestiPlugin.php:1674
+msgid "Margin Bottom"
+msgstr "Отступ снизу (Margin Bottoml)"
+
+#: common/WooCartBackendFestiPlugin.php:1689
+msgid "Margin Left"
+msgstr "Отступ слева (Margin Left)"
+
+#: common/WooCartBackendFestiPlugin.php:1704
+#: common/WooCartBackendFestiPlugin.php:1798
+msgid "Margin Right"
+msgstr "Отступ справа (Margin Right)"
+
+#: common/WooCartBackendFestiPlugin.php:1719
+msgid "Close button"
+msgstr "Кнопка Закрыть"
+
+#: common/WooCartBackendFestiPlugin.php:1727
+#: common/WooCartBackendFestiPlugin.php:2608
+#: common/WooCartBackendFestiPlugin.php:2653
+#: common/WooCartBackendFestiPlugin.php:2684
+#: common/WooCartBackendFestiPlugin.php:3249
+#: common/WooCartBackendFestiPlugin.php:3378
+msgid "Display"
+msgstr "Отображать"
+
+#: common/WooCartBackendFestiPlugin.php:1729
+msgid "Enable close button"
+msgstr "Показывать кнопку Закрыть"
+
+#: common/WooCartBackendFestiPlugin.php:1740
+#: common/WooCartBackendFestiPlugin.php:3299
+msgid "Size"
+msgstr "Размер"
+
+#: common/WooCartBackendFestiPlugin.php:1769
+#: common/WooCartBackendFestiPlugin.php:1983
+#: common/WooCartBackendFestiPlugin.php:2168
+#: common/WooCartBackendFestiPlugin.php:2635
+#: common/WooCartBackendFestiPlugin.php:2971
+#: common/WooCartBackendFestiPlugin.php:3170
+#: common/WooCartBackendFestiPlugin.php:3328
+msgid "Font Color on Hover"
+msgstr "Цвет шрифта при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:1813
+#: common/WooCartBackendFestiPlugin.php:1821
+msgid "Continue Shopping Button"
+msgstr "Кнопка Продолжить покупки"
+
+#: common/WooCartBackendFestiPlugin.php:1823
+msgid "Enable Continue Shopping button"
+msgstr "Отображать"
+
+#: common/WooCartBackendFestiPlugin.php:1834
+#: common/WooCartBackendFestiPlugin.php:2697
+#: common/WooCartBackendFestiPlugin.php:2856
+#: common/WooCartBackendFestiPlugin.php:3055
+#: common/WooCartFestiWidget.php:30
+msgid "Title"
+msgstr "Заголовок"
+
+#: common/WooCartBackendFestiPlugin.php:1838
+#: common/WooCartBackendFestiPlugin.php:2860
+#: common/WooCartBackendFestiPlugin.php:3059
+msgid "Change the button text"
+msgstr "Измените текст кнопки"
+
+#: common/WooCartBackendFestiPlugin.php:1842
+msgid "Continue Shopping"
+msgstr "Продолжить покупки"
+
+#: common/WooCartBackendFestiPlugin.php:1865
+msgid "Select the location of button in popup footer"
+msgstr "Выберите место кнопки внизу всплывающего окошка"
+
+#: common/WooCartBackendFestiPlugin.php:1880
+#: common/WooCartBackendFestiPlugin.php:2870
+#: common/WooCartBackendFestiPlugin.php:3069
+msgid "Width Type"
+msgstr "Ширина кнопок"
+
+#: common/WooCartBackendFestiPlugin.php:1884
+#: common/WooCartBackendFestiPlugin.php:2874
+#: common/WooCartBackendFestiPlugin.php:3073
+msgid "Select width type"
+msgstr "Лучше авто"
+
+#: common/WooCartBackendFestiPlugin.php:1888
+#: common/WooCartBackendFestiPlugin.php:2878
+#: common/WooCartBackendFestiPlugin.php:3077
+msgid "Auto"
+msgstr "Авто"
+
+#: common/WooCartBackendFestiPlugin.php:1889
+#: common/WooCartBackendFestiPlugin.php:2879
+#: common/WooCartBackendFestiPlugin.php:3078
+msgid "Full Width"
+msgstr "Full Width"
+
+#: common/WooCartBackendFestiPlugin.php:1890
+#: common/WooCartBackendFestiPlugin.php:2880
+#: common/WooCartBackendFestiPlugin.php:3079
+msgid "Custom"
+msgstr "Пользовательская"
+
+#: common/WooCartBackendFestiPlugin.php:1898
+#: common/WooCartBackendFestiPlugin.php:2888
+#: common/WooCartBackendFestiPlugin.php:3087
+msgid "Custom Width"
+msgstr "Пользовательская ширина"
+
+#: common/WooCartBackendFestiPlugin.php:1911
+#: common/WooCartBackendFestiPlugin.php:2409
+#: common/WooCartBackendFestiPlugin.php:2901
+#: common/WooCartBackendFestiPlugin.php:3100
+msgid "Padding Top"
+msgstr "Верхний отступ (Padding Top)"
+
+#: common/WooCartBackendFestiPlugin.php:1926
+#: common/WooCartBackendFestiPlugin.php:2423
+#: common/WooCartBackendFestiPlugin.php:2915
+#: common/WooCartBackendFestiPlugin.php:3114
+msgid "Padding Bottom"
+msgstr "Нижний отступ (Padding Bottom)"
+
+#: common/WooCartBackendFestiPlugin.php:1941
+#: common/WooCartBackendFestiPlugin.php:2730
+#: common/WooCartBackendFestiPlugin.php:2929
+#: common/WooCartBackendFestiPlugin.php:3128
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: common/WooCartBackendFestiPlugin.php:1955
+#: common/WooCartBackendFestiPlugin.php:2943
+#: common/WooCartBackendFestiPlugin.php:3142
+msgid "Background Color on Hover"
+msgstr "Цвет фона при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:2041
+#: common/WooCartBackendFestiPlugin.php:3029
+#: common/WooCartBackendFestiPlugin.php:3228
+msgid "Border Color on Hover"
+msgstr "Цвет рамки при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:2055
+#: common/WooCartBackendFestiPlugin.php:2353
+msgid "Disable Responsive Width"
+msgstr "Отключить адаптацию ширины"
+
+#: common/WooCartBackendFestiPlugin.php:2095
+msgid "Content Alignment"
+msgstr "Выравнивание содержимого"
+
+#: common/WooCartBackendFestiPlugin.php:2099
+msgid "Select the location of content in cart container"
+msgstr "Расположение контента в окне корзины"
+
+#: common/WooCartBackendFestiPlugin.php:2113
+msgid "Opacity for Cart"
+msgstr "Непрозрачность Корзины"
+
+#: common/WooCartBackendFestiPlugin.php:2127
+msgid "Cart Opacity for Hover Action"
+msgstr "Прозрачность корзины при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:2140
+msgid "Font Styles"
+msgstr "Настройки шрифта"
+
+#: common/WooCartBackendFestiPlugin.php:2178
+#: common/WooCartBackendFestiPlugin.php:2449
+msgid "Background"
+msgstr "Настройки фона"
+
+#: common/WooCartBackendFestiPlugin.php:2197
+#: common/WooCartBackendFestiPlugin.php:2270
+msgid "Color on Hover"
+msgstr "Цвет при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:2224
+msgid "Opacity on Hover"
+msgstr "Непрозрачность при наведении курсора"
+
+#: common/WooCartBackendFestiPlugin.php:2283
+#: common/WooCartBackendFestiPlugin.php:2534
+msgid "Radius for Top Left Corner"
+msgstr "Radius for Top Left Corner"
+
+#: common/WooCartBackendFestiPlugin.php:2297
+#: common/WooCartBackendFestiPlugin.php:2548
+msgid "Radius for Top Right Corner"
+msgstr "Radius for Top Right Corner"
+
+#: common/WooCartBackendFestiPlugin.php:2311
+#: common/WooCartBackendFestiPlugin.php:2325
+#: common/WooCartBackendFestiPlugin.php:2562
+msgid "Radius for Bottom Right Corner"
+msgstr "Radius for Bottom Right Corner"
+
+#: common/WooCartBackendFestiPlugin.php:2390
+msgid "Empty Cart"
+msgstr "Пустая корзина"
+
+#: common/WooCartBackendFestiPlugin.php:2396
+msgid "Text for Empty Cart"
+msgstr "Текст для пустой корзины"
+
+#: common/WooCartBackendFestiPlugin.php:2400
+msgid "Change Dropdown List Text for Empty Cart"
+msgstr "Изменить выпадающий список когда корзина пуста"
+
+#: common/WooCartBackendFestiPlugin.php:2437
+msgid "Text Font Color for Empty Cart"
+msgstr "Цвет текста для пустой корзины"
+
+#: common/WooCartBackendFestiPlugin.php:2441
+msgid "Change the color for empty product list text"
+msgstr "Изменить цвет текста для отсутствующего товара"
+
+#: common/WooCartBackendFestiPlugin.php:2510
+msgid "Show arrow on top of border"
+msgstr "Показать стрелочку между фреймом корзины и списком"
+
+#: common/WooCartBackendFestiPlugin.php:2514
+msgid "Enable dropdown arrow"
+msgstr "Включить стрелочку"
+
+#: common/WooCartBackendFestiPlugin.php:2524
+msgid "Arrow Color"
+msgstr "Цвет стрелки"
+
+#: common/WooCartBackendFestiPlugin.php:2576
+msgid "Radius for Bottom Left Corner"
+msgstr "Radius for Bottom Left Corner"
+
+#: common/WooCartBackendFestiPlugin.php:2590
+msgid "Opacity for Product List"
+msgstr "Непрозрачность Перечня продуктов"
+
+#: common/WooCartBackendFestiPlugin.php:2603
+msgid "Product Title"
+msgstr "Название продукта"
+
+#: common/WooCartBackendFestiPlugin.php:2610
+msgid "Enable product title"
+msgstr "Отображать название продукта"
+
+#: common/WooCartBackendFestiPlugin.php:2648
+msgid "Amount and Price"
+msgstr "Количество и Сумма"
+
+#: common/WooCartBackendFestiPlugin.php:2655
+msgid "Enable amount and price"
+msgstr "Отображать количество и сумму"
+
+#: common/WooCartBackendFestiPlugin.php:2679
+#: common/WooCartBackendFestiPlugin.php:2705
+msgid "Subtotal"
+msgstr "Итого"
+
+#: common/WooCartBackendFestiPlugin.php:2686
+msgid "Enable Subtotal"
+msgstr "Показывать Итого"
+
+#: common/WooCartBackendFestiPlugin.php:2711
+msgid "Text Position"
+msgstr "Text Position"
+
+#: common/WooCartBackendFestiPlugin.php:2715
+msgid "Select the location of text in subtotal container"
+msgstr "Select the location of text in subtotal container"
+
+#: common/WooCartBackendFestiPlugin.php:2763
+msgid "Change the Color for total price in product list"
+msgstr "Изменить цвет для общей стоимости в перечне заказов"
+
+#: common/WooCartBackendFestiPlugin.php:2802
+msgid "View Cart & Checkout Buttons"
+msgstr "Кнопки просмотра корзины и оплаты"
+
+#: common/WooCartBackendFestiPlugin.php:2810
+msgid "Font Weight"
+msgstr "Font Weight"
+
+#: common/WooCartBackendFestiPlugin.php:2814
+msgid "Select font weight for Buttons"
+msgstr "Select font weight for Buttons"
+
+#: common/WooCartBackendFestiPlugin.php:2818
+msgid "Normal"
+msgstr "Нормально"
+
+#: common/WooCartBackendFestiPlugin.php:2819
+msgid "Bold"
+msgstr "Жирный"
+
+#: common/WooCartBackendFestiPlugin.php:2827
+msgid "Display the First in Queue"
+msgstr "Порядок отображения кнопок"
+
+#: common/WooCartBackendFestiPlugin.php:2831
+msgid "Select Display the button to display the first"
+msgstr "Какую из двух кнопок показывать слева"
+
+#: common/WooCartBackendFestiPlugin.php:2835
+#: common/WooCartBackendFestiPlugin.php:2864
+msgid "View Cart"
+msgstr "Корзина"
+
+#: common/WooCartBackendFestiPlugin.php:2836
+#: common/WooCartBackendFestiPlugin.php:3063
+msgid "Checkout"
+msgstr "Оплатить"
+
+#: common/WooCartBackendFestiPlugin.php:2843
+msgid "View Cart Button"
+msgstr "Кнопка Просмотр корзины"
+
+#: common/WooCartBackendFestiPlugin.php:2845
+msgid "Enable View Cart button"
+msgstr "Включить"
+
+#: common/WooCartBackendFestiPlugin.php:3042
+msgid "Checkout Button"
+msgstr "Кнопка Оплатить"
+
+#: common/WooCartBackendFestiPlugin.php:3044
+msgid "Enable Checkout button"
+msgstr "Отображение кнопки Оплатить"
+
+#: common/WooCartBackendFestiPlugin.php:3242
+msgid "Delete Product Button"
+msgstr "Крестик Удалить продукт"
+
+#: common/WooCartBackendFestiPlugin.php:3251
+msgid "Enable Delete Product Button"
+msgstr "Показывать крестик удаления продукта"
+
+#: common/WooCartBackendFestiPlugin.php:3262
+msgid "Position"
+msgstr "Позиция"
+
+#: common/WooCartBackendFestiPlugin.php:3266
+msgid "Select the location of button in dropdown list"
+msgstr "Выберите место кнопки в выпадающем списке"
+
+#: common/WooCartBackendFestiPlugin.php:3280
+msgid "Vertical Alignment"
+msgstr "Вертикальное выравнивание"
+
+#: common/WooCartBackendFestiPlugin.php:3284
+msgid "Select the vertical alignment of button in dropdown list"
+msgstr "Выберите вертикальное выравнивание кнопки в выпадающем списке"
+
+#: common/WooCartBackendFestiPlugin.php:3290
+msgid "Bottom"
+msgstr "Низ"
+
+#: common/WooCartBackendFestiPlugin.php:3341
+msgid "Divider for products"
+msgstr "Разделитель продуктов"
+
+#: common/WooCartBackendFestiPlugin.php:3373
+msgid "Products Thumbnails"
+msgstr "Products Thumbnails"
+
+#: common/WooCartBackendFestiPlugin.php:3380
+msgid "Enable product picture"
+msgstr "Включить миниатюру продукта"
+
+#: common/WooCartBackendFestiPlugin.php:3390
+msgid "Use Default Thumbnails"
+msgstr "Use Default Thumbnails"
+
+#: common/WooCartBackendFestiPlugin.php:3392
+msgid "Enable option"
+msgstr "Включить опцию"
+
+#: common/WooCartBackendFestiPlugin.php:3396
+msgid "Will use default  Banda Product Thumbnails"
+msgstr "Will use default  Banda Product Thumbnails"
+
+#: common/WooCartBackendFestiPlugin.php:3405
+msgid "Max Width for Custom"
+msgstr "Максимальная ширина"
+
+#: common/WooCartBackendFestiPlugin.php:3420
+msgid "Max Height for Custom"
+msgstr "Максимальная высота"
+
+#: common/WooCartBackendFestiPlugin.php:3470
+msgid "Wrong Image Format"
+msgstr "Wrong Image Format"
+
+#: common/WooCartBackendFestiPlugin.php:3630
+msgid "You need to insert JSON"
+msgstr "Необходимо ввести JSON"
+
+#: common/WooCartBackendFestiPlugin.php:3641
+msgid "Not true format settings"
+msgstr "Ненормальный формат параметров"
+
+#: common/WooCartBackendFestiPlugin.php:3663
+msgid "These settings are not supported"
+msgstr "These settings are not supported"
+
+#: common/WooCartFestiWidget.php:16 common/WooCartFestiWidget.php:19
+msgid "Banda WooCart Pro"
+msgstr "Banda WooCart Pro"
+
+#: common/WooCartFestiWidget.php:36
+msgid "Display as a list of products"
+msgstr "Показывать как перечень всех позиций"
+
+#: common/WooCartFestiWidget.php:43
+msgid "Hide if cart is empty"
+msgstr "Скрыть если корзина пуста"
+
+#: templates/backend/form/custom_icon.phtml:25
+msgid "Delete Icon"
+msgstr "Удалить иконку"
+
+#: templates/backend/import_export_page.phtml:3
+msgid "Import Settings"
+msgstr "Импорт настроек"
+
+#: templates/backend/import_export_page.phtml:4
+msgid "Paste the JSON"
+msgstr ""
+"Вставить JSON (англ. JavaScript Object Notation) — текстовый формат обмена "
+"данными, основанный на JavaScript"
+
+#: templates/backend/import_export_page.phtml:12
+msgid "Import"
+msgstr "Импорт"
+
+#: templates/backend/import_export_page.phtml:16
+msgid "Export Current Settings"
+msgstr "Экспорт текущих настроек"
+
+#: templates/backend/import_export_page.phtml:17
+msgid "Click on the text area to copy JSON"
+msgstr "Сохраните этот код в простой текстовый файл."
+
+#: templates/backend/manual_url.phtml:9
+msgid "Link to manual"
+msgstr "Link to manual"
+
+#: templates/backend/refresh.phtml:11
+msgid "Refresh Plugin"
+msgstr "Refresh Plugin"
+
+#: templates/backend/settings_page.phtml:20
+#: templates/backend/settings_page.phtml:25
+msgid "Open"
+msgstr "Раскрыть"
+
+#: templates/backend/settings_page.phtml:48
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Location in Cart"
+msgstr "Расположение каунтера"
+
+#: common/SettingsWooCartFacade.php:499
+msgid "Default Count"
+msgstr "По умолчанию"
+
+#: common/SettingsWooCartFacade.php:502
+msgid "Badge Count"
+msgstr "Счетчик"
+
+#: common/SettingsWooCartFacade.php:514
+msgid "Select the alignment of badge in cart"
+
+msgstr "Выберите место расположения счетчика в корзине"

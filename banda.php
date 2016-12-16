@@ -228,7 +228,6 @@ final class Banda {
 		include_once( 'includes/wc-core-functions.php' );
 		include_once( 'includes/wc-widget-functions.php' );
 		include_once( 'includes/wc-webhook-functions.php' );
-		include_once( 'includes/wc-lipa-na-mpesa.php' );
 		include_once( 'includes/class-wc-install.php' );
 		include_once( 'includes/class-wc-geolocation.php' );
 		include_once( 'includes/class-wc-download-handler.php' );
@@ -237,8 +236,9 @@ final class Banda {
 		include_once( 'includes/class-wc-ajax.php' );
 
 		include_once( 'delivery-notes.php' );
-		//include_once( 'init.php' );
+		include_once( 'cart.php' );
 		include_once( 'pdf-invoices-packingslips.php' );
+		//include_once( 'sequential-order-numbers-pro.php' );
 
 		if ( $this->is_request( 'admin' ) ) {
 			include_once( 'includes/admin/class-wc-admin.php' );

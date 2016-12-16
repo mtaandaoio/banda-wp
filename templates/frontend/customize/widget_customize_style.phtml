@@ -1,0 +1,219 @@
+<?php
+$backgroundOpacity = $settings['productListBackgroundOpacity']/10;
+$rgb = $this->convertHexToRgb($settings['productListBackground']);
+?>
+<style>
+body div.festi-cart-widget-content div.festi-cart-widget-products-content
+{
+    border: <?php echo $settings['productListBorderWidth'];?>px solid;
+    padding: <?php echo $settings['productListPadding'];?>px;
+    border-color: <?php echo $settings['borderColor'];?>;
+    border-radius:
+        <?php echo $settings['productListBorderRadiusTopLeft'];?>px
+        <?php echo $settings['productListBorderRadiusTopRight'];?>px
+        <?php echo $settings['productListBorderRadiusBottomRight'];?>px
+        <?php echo $settings['productListBorderRadiusBottomLeft'];?>px
+    ;
+    background-color: rgba(
+        <?php echo $rgb[0];?>,
+        <?php echo $rgb[1];?>,
+        <?php echo $rgb[2];?>,
+        <?php echo $backgroundOpacity;?>
+    );
+    <?php 
+    if (!empty($settings['responsiveProductList'])) {
+    ?>
+        width: <?php echo $settings['productListWidth'];?>px;
+    <?php             
+    }
+    ?>
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title a.festi-cart-title,
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-title
+{
+    color: <?php echo $settings['productFontColor'];?>;
+    font-size: <?php echo $settings['productListFontSize'];?>px;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title a.festi-cart-title:hover
+{
+    color: <?php echo $settings['productHoverFontColor'];?>;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-count,
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-price,
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-price span.amount
+{
+    color: <?php echo $settings['productTotalPriceFontColor'];?>;
+    font-size: <?php echo $settings['productListFontSize'];?>px;
+}
+body div.festi-cart-widget-products-content > div.festi-cart-total
+{
+    <?php
+    if (!array_key_exists('displayProductListTotal', $settings) && !empty($settings['displayProductListTotal'])) {
+    ?>   
+        display: none;
+    <?php
+    }
+    ?>
+    border: <?php echo $settings['productListTotalPriceBorderWidth'];?>px solid;
+    border-color: <?php echo $settings['productListTotalPriceBorderColor'];?>;
+    border-radius: <?php echo $settings['productListTotalPriceBorderRadius'];?>px;
+    background-color: <?php echo $settings['productListTotalPriceBackground']?>;
+    color: <?php echo $settings['productListTotalPriceFontColor'];?>;
+    font-size: <?php echo $settings['productListFontSize'];?>px;
+    text-align: <?php echo $settings['productListTotalTextAlign'];?>;
+}
+<?php 
+if ($settings['productListButtonsFontWeight'] == 'bold') {
+?>   
+    div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-view-cart,
+    div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-checkout
+    {
+        font-weight: bold;
+    }
+<?php
+}
+?>
+
+
+body div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-view-cart
+{
+    <?php 
+    if (!array_key_exists('displayViewCartButton', $settings) || empty($settings['displayViewCartButton'])) {
+    ?>   
+        display: none;
+    <?php
+    } else {
+        if ($settings['viewCartButtonWidthType'] == 'full') {
+        ?>
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+        <?php  
+        }
+        
+        if ($settings['viewCartButtonWidthType'] == 'custom') {
+        ?>
+            width: <?php echo $settings['viewCartButtonWidth'];?>px;
+        <?php  
+        }
+    }
+    ?>
+    
+     border: <?php echo $settings['viewCartButtonBorderWidth'];?>px solid;
+     border-color: <?php echo $settings['viewCartButtonBorderColor'];?>;
+     border-radius: <?php echo $settings['viewCartButtonBorderRadius'];?>px;
+     background-color: <?php echo $settings['viewCartButtonBackground'];?>;
+     color: <?php echo $settings['viewCartButtonFontColor'];?>;
+     font-size: <?php echo $settings['productListFontSize'];?>px;
+      padding-top: <?php echo $settings['viewCartButtonPaddingTop'];?>px;
+     padding-bottom: <?php echo $settings['viewCartButtonPaddingBottom'];?>px;
+}
+body div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-view-cart:hover
+{
+     background-color: <?php echo $settings['viewCartButtonHoverBackground'];?>;
+     border-color: <?php echo $settings['viewCartButtonHoverBorderColor'];?>;
+     color: <?php echo $settings['viewCartButtonHoverFontColor'];?>;
+}
+
+body div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-checkout
+{
+     <?php 
+    if (!array_key_exists('displayCheckoutButton', $settings) || empty($settings['displayCheckoutButton'])) {
+    ?>   
+        display: none;
+    <?php
+    } else {
+        if ($settings['checkoutButtonWidthType'] == 'full') {
+        ?>
+            display: block;
+            margin-left: 0;
+            margin-right: 0;
+        <?php  
+        }
+        
+        if ($settings['checkoutButtonWidthType'] == 'custom') {
+        ?>
+            width: <?php echo $settings['checkoutButtonWidth'];?>px;
+        <?php  
+        }
+    }
+    ?>
+    
+     border: <?php echo $settings['checkoutButtonBorderWidth'];?>px solid;
+     border-color: <?php echo $settings['checkoutButtonBorderColor'];?>;
+     border-radius: <?php echo $settings['checkoutButtonBorderRadius'];?>px;
+     background-color: <?php echo $settings['checkoutButtonBackground'];?>;
+     color: <?php echo $settings['checkoutButtonFontColor'];?>;
+     font-size: <?php echo $settings['productListFontSize'];?>px;
+     padding-top: <?php echo $settings['checkoutButtonPaddingTop'];?>px;
+     padding-bottom: <?php echo $settings['checkoutButtonPaddingBottom'];?>px;
+}
+
+body div.festi-cart-widget-products-content > p.festi-cart-buttons a.festi-cart-checkout:hover
+{
+     background-color: <?php echo $settings['checkoutButtonHoverBackground'];?>;
+     border-color: <?php echo $settings['checkoutButtonHoverBorderColor'];?>;
+     color: <?php echo $settings['checkoutButtonHoverFontColor'];?>;
+}
+
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete
+{
+    vertical-align: <?php echo $settings['deleteButtonVerticalAlignment'];?>;  
+}
+
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete a.festi-cart-remove-product
+{   
+    font-size: <?php echo $settings['deleteButtonSize'];?>px;
+    line-height: <?php echo $settings['deleteButtonSize'];?>px;
+    color: <?php echo $settings['deleteButtonFontColor'];?>;
+    float: <?php echo $settings['deleteButtonPosition'];?>;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-delete a.festi-cart-remove-product:hover
+{   
+    color: <?php echo $settings['deleteButtonHoverFontColor'];?>;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list tr,
+body div.festi-cart-widget-products-content > table.festi-cart-list tr td
+{
+    border-bottom: <?php echo $settings['delimiterPositionsWidth'];?>px solid;
+    border-bottom-color: <?php echo $settings['delimiterPositionsColor'];?>;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list tr.festi-cart-empty
+{
+    color: <?php echo $settings['productListEmptyFontColor'];?>;
+    padding: 0;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list tr.festi-cart-empty td.festi-cart-empty
+{
+    padding-top: <?php echo $settings['productListEmptyPaddingTop'];?>px;
+    padding-bottom: <?php echo $settings['productListEmptyPaddingBottom'];?>px;
+}
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-img a.festi-cart-img img,
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-img span.festi-cart-img img
+{
+    <?php
+    if ($settings['productImageMaxWidth']) {
+    ?>       
+        max-width: <?php echo $settings['productImageMaxWidth'];?>px;
+    <?php
+    }
+    ?>  
+    <?php
+    if ($settings['productImageMaxHeight']) {
+    ?>    
+        max-height: <?php echo $settings['productImageMaxHeight'];?>px;
+    <?php
+    } elseif (!array_key_exists('productDefaultThumbnail', $settings) || empty($settings['productDefaultThumbnail'])) {
+    ?> 
+        width: <?php echo $settings['productImageMaxWidth'];?>px;
+    <?php
+    }
+    ?>
+}
+
+body div.festi-cart-widget-products-content > table.festi-cart-list  tr.festi-cart-item > td.festi-cart-product-title span.festi-cart-product-variation-attribut
+{
+    font-size: <?php echo ($settings['productListFontSize']-1); ?>px;
+    display: block;
+}
+</style>

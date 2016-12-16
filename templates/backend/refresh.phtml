@@ -1,0 +1,12 @@
+<?php
+    $params = array(
+        'refresh_plugin' => 'true',
+        'delete_custom_icon' => ''
+    );
+    
+    $refreshLink = $this->getUrl($params);
+?>
+
+<a href='<?php echo $refreshLink; ?>'>
+    <input class="festi-cart-refresh" type="button" value="<?php _e('Refresh Plugin', $this->_languageDomain); ?>">
+</a>

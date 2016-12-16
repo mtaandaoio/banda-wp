@@ -1,0 +1,80 @@
+<?php
+$backgroundOpacity = $settings['cartBackgroundOpacity']/10;
+$rgb = $this->convertHexToRgb($settings['cartBackground']);
+$hoverBackgroundOpacity = $settings['cartHoverBackgroundOpacity']/10;
+$hoverRgb = $this->convertHexToRgb($settings['cartHoverBackground']);
+?>
+
+<style>
+body  a#festi-cart.festi-cart.festi-cart-customize
+{
+    text-align: <?php echo $settings['cartContentAlign']; ?>;
+    background-color: rgba(
+        <?php echo $rgb[0]; ?>,
+        <?php echo $rgb[1]; ?>,
+        <?php echo $rgb[2]; ?>,
+        <?php echo $backgroundOpacity; ?>
+    );
+    border: <?php echo $settings['cartBorderWidth']; ?>px solid;
+    border-color: <?php echo $settings['cartBorderColor']; ?>;
+    padding: <?php echo $settings['cartPadding']; ?>px;
+    border-radius:
+        <?php echo $settings['cartBorderRadiusTopLeft']; ?>px
+        <?php echo $settings['cartBorderRadiusTopRight']; ?>px
+        <?php echo $settings['cartBorderRadiusBottomRight']; ?>px
+        <?php echo $settings['cartBorderRadiusBottomLeft']; ?>px
+    ;
+    <?php
+    if (!empty($settings['responsiveCartWidth'])) {
+    ?>
+        width: <?php echo $settings['cartWidth']; ?>px;  
+    <?php  
+    }
+    ?>
+}
+body  a#festi-cart.festi-cart.festi-cart-customize:hover,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active
+{
+    background-color: rgba(
+        <?php echo $hoverRgb[0]; ?>,
+        <?php echo $hoverRgb[1]; ?>,
+        <?php echo $hoverRgb[2]; ?>,
+        <?php echo $hoverBackgroundOpacity; ?>
+    );
+    border-color: <?php echo $settings['cartBorderHoverColor']; ?>;
+}
+
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-total small,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize:hover div.festi-cart-content span.festi-cart-dropdown-arrow,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize.festi-cart-active div.festi-cart-content span.festi-cart-dropdown-arrow
+{
+    color: <?php echo $settings['textHoverColor']; ?>; 
+}
+
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-quantity,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-before-total,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total span.amount,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-total small,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-text-after-total,
+body  a#festi-cart.festi-cart.festi-cart-customize div.festi-cart-content span.festi-cart-dropdown-arrow
+{
+    font-size:  <?php echo $settings['fontSize']; ?>px ;
+    color: <?php echo $settings['textColor']; ?>;    
+}
+
+
+</style>

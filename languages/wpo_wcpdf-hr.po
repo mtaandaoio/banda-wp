@@ -131,7 +131,7 @@ msgstr "Status"
 
 #: ../includes/class-wcpdf-settings.php:119
 msgid "Banda PDF Invoices"
-msgstr "Woocommerce PDF Računi"
+msgstr "Banda PDF Računi"
 
 #: ../includes/class-wcpdf-settings.php:188
 msgid "General settings"
@@ -321,7 +321,7 @@ msgid ""
 "this could create double invoice numbers!"
 msgstr ""
 "Ovo je broj koji će se koristiti na prvom slijedećem generiranom računu. "
-"Prema pretpostavljenim postavkama, brojanje započinje od Woocommerce broja "
+"Prema pretpostavljenim postavkama, brojanje započinje od Banda broja "
 "narudžbe i prvog generiranog računa i broj se uvećava za svaki novi račun. "
 "Obratite pozornost na to ako ovo premostite i postavite na nižu vrijednost "
 "od najvišeg (PDF) broja računa, moglo bi se dogoditi da imate kreirane "

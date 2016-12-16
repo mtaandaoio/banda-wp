@@ -1,0 +1,143 @@
+# Copyright (C) 2016 Mtaandao / SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sequential Order Numbers Pro 1.10.0\n"
+"Report-Msgid-Bugs-To: https://support.woothemes.com/hc/\n"
+"POT-Creation-Date: 2014-06-15 22:41:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. Plugin Name of the plugin/theme
+msgid "Sequential Order Numbers Pro"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:482
+msgid "Draft"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:604
+msgid "Order Number Start must be a number greater than or equal to 0."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:618
+#. translators: Placeholders: %1$s - highest order number, %2$s - current order
+#. number set
+msgid ""
+"There is an existing order (%1$s) with a number greater than or equal to "
+"%2$s. To set a new order number start please choose a higher number or "
+"permanently delete the relevant order(s)."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:642
+msgid "Order Numbers"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:645
+msgid "Order Number Start"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:648
+#. translators: Placeholders: %s - sample order number
+msgid ""
+"The starting number for the incrementing portion of the order numbers, "
+"unless there is an existing order with a higher number.  Use leading zeroes "
+"to pad your order numbers to a desired minimum length.  Any newly placed "
+"orders will be numbered like: %s"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:655
+#. translators: Placeholders: %s - order number
+msgid "Sample order number: %s"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:659
+msgid "Order Number Prefix"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:660
+msgid ""
+"Set your custom order number prefix.  You may use {DD}, {MM}, {YYYY} for "
+"the current day, month and year respectively."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:666
+#. translators: Placeholders: %1$s - opening <a> link tag, %2$s - closing </a>
+#. link tag
+msgid "See the %1$splugin documentation%2$s for the full set of available patterns."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:670
+msgid "Order Number Suffix"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:671
+msgid ""
+"Set your custom order number suffix. You may use {DD}, {MM}, {YYYY} for the "
+"current day, month and year respectively."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:679
+msgid "Skip Free Orders"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:680
+msgid "Skip order numbers for free orders"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:681
+msgid ""
+"With this enabled an order number will not be assigned to an order "
+"consisting solely of free products."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:689
+msgid "Free Order Identifer"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:691
+#. translators: Placeholders: %s - sample order number
+msgid "Example free order identifier: %s"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:692
+msgid ""
+"The text to display in place of the order number for free orders. This will "
+"be displayed anywhere an order number would otherwise be shown: to the "
+"customer, in emails, and in the admin."
+msgstr ""
+
+#: banda-sequential-order-numbers.php:697
+#: banda-sequential-order-numbers.php:1175
+#. translators: FREE- as in free purchase order
+msgid "FREE-"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:1325
+#. translators: Placeholders: %1$s - Plugin Name, %2$s - Error message(s)
+msgid "Error activating and installing %1$s: %2$s"
+msgstr ""
+
+#: banda-sequential-order-numbers.php:1328
+msgid "&laquo; Go Back"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/products/sequential-order-numbers-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Provides custom incrementing order numbers for Banda orders."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mtaandao / SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woothemes.com"
+msgstr ""

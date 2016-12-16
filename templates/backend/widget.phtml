@@ -1,0 +1,27 @@
+<input type="hidden" name="__action" value="save" /> 
+ <?php
+foreach ($widgetOptions as $ident => $item) {           
+?>
+    <p>
+        
+        <?php
+        if (isset($item['caption'])) {
+        ?>
+            <label for="<?php echo $ident; ?>"><?php echo $item['caption']; ?></label>
+        <?php
+        }
+            $vars = array (
+                'ident' => $ident,
+                'item' => $item
+            );
+            
+            if (isset($currentValues[$ident])) {
+                $vars['currentValue'] = $currentValues[$ident];
+            }
+            
+            echo $this->fetch('backend/form/'.$item['type'].'.phtml', $vars);
+            ?>
+    </p>
+<?php
+}
+?>

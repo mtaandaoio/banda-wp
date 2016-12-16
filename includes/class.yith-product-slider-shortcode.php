@@ -64,7 +64,7 @@ if( !class_exists( 'YITH_Product_Slider_Shortcode' ) ){
                /**
                 * Since 1.0.5
                 *
-                * @param $banda_loop mixed Woocommerce loop global
+                * @param $banda_loop mixed Banda loop global
                 * @param $plugin_slug string Current plugin slug
                 */
 
